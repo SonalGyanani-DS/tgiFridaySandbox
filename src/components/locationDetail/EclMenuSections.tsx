@@ -119,7 +119,7 @@ const EclMenuSections = (props: EclMenuSectionsType) => {
                           </div>
                           <div className="button-bx-detail !-mt-5 relative z-10">
                             <Link
-                              eventName={`${name} ${address.city}, ${address.region} - ${item.itemName} OrderNow`}
+                              eventName={`${name}_${address.city}_${address.region}_${item.itemName[0].replaceAll(" ","_")}_OrderNow`}
                               data-ya-track={`${name} ${address.city}, ${address.region} - ${item.itemName} OrderNow`}
                               rel="noopener noreferrer"
                               className="btn"
