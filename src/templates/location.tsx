@@ -611,9 +611,9 @@ const Location: Template<LocationProps> = ({
                 contentLabel="Example Modal"
                 onRequestClose={closeModal}>
                 <Image image={document.c_promotionImage} />
-                <h1>{document.c_promotionHeading}</h1>
-                <p>{document.c_promotionTagline}</p>
-                <Link href={document.c_promotionCTA.link}>{document.c_promotionCTA.label}</Link>
+                {document.c_promotionHeading ? <h1>{document.c_promotionHeading}</h1>:""}
+                {document.c_promotionTagline ? <p>{document.c_promotionTagline}</p>:""}
+                {document.c_promotionCTA && document.c_promotionCTA.link && document.c_promotionCTA.label ? <Link href={document.c_promotionCTA.link}>{document.c_promotionCTA.label}</Link>:""}
                 <button onClick={() => setIsOpen(false)}>X</button>
               </Modal>
               :
