@@ -60,8 +60,8 @@ export const RewardSection = (props: RewardSectionType) => {
                           ? "_blank"
                           : "tab"
                       }
-                      eventName="RewardSectionCTA_1"
-                      data-ya-track="RewardSectionCTA_1"
+                      eventName="Reward_Section_CTA_1"
+                      data-ya-track="Reward_Section_CTA_1"
                       rel="noopener noreferrer"
                       href={c_rewardSection.cTAs.link}
                       className="cta-btn"
