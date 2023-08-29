@@ -185,9 +185,9 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         attributes: {
           name: "description",
           content: `${document.c_meta_description
-              ? document.c_meta_description
-              : `Visit ${document.name && document.name} Restaurant & Bar in ${document.geomodifier && document.geomodifier
-              }for Whiskey-Glazed burgers, wings, or ribs. Find our menu, order delivery, and timings here.`
+            ? document.c_meta_description
+            : `Visit ${document.name && document.name} Restaurant & Bar in ${document.geomodifier && document.geomodifier
+            }for Whiskey-Glazed burgers, wings, or ribs. Find our menu, order delivery, and timings here.`
             }`,
         },
       },
@@ -213,8 +213,8 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         attributes: {
           rel: "canonical",
           href: `${document._site?.c_canonical
-              ? document?.c_canonical + ".html"
-              : stagingBaseurl + currentUrl
+            ? document?.c_canonical + ".html"
+            : stagingBaseurl + currentUrl
             }`,
         },
       },
@@ -224,9 +224,9 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         attributes: {
           property: "og:description",
           content: `${document.c_meta_description
-              ? document.c_meta_description
-              : `Visit ${document.name && document.name} Restaurant & Bar in ${document.geomodifier && document.geomodifier
-              }for Whiskey-Glazed burgers, wings, or ribs. Find our menu, order delivery, and timings here.`
+            ? document.c_meta_description
+            : `Visit ${document.name && document.name} Restaurant & Bar in ${document.geomodifier && document.geomodifier
+            }for Whiskey-Glazed burgers, wings, or ribs. Find our menu, order delivery, and timings here.`
             }`,
         },
       },
@@ -259,8 +259,8 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         attributes: {
           property: "og:url",
           content: `${document._site?.c_canonical
-              ? document?.c_canonical + ".html"
-              : stagingBaseurl + currentUrl
+            ? document?.c_canonical + ".html"
+            : stagingBaseurl + currentUrl
             }`,
         },
       },
@@ -286,8 +286,8 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         attributes: {
           name: "twitter:url",
           content: `${document._site?.c_canonical
-              ? document?.c_canonical + ".html"
-              : stagingBaseurl + currentUrl
+            ? document?.c_canonical + ".html"
+            : stagingBaseurl + currentUrl
             }`,
         },
       },
@@ -296,9 +296,9 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         attributes: {
           name: "twitter:description",
           content: `${document.c_meta_description
-              ? document.c_meta_description
-              : `Visit ${document.name && document.name} Restaurant & Bar in ${document.geomodifier && document.geomodifier
-              }for Whiskey-Glazed burgers, wings, or ribs. Find our menu, order delivery, and timings here.`
+            ? document.c_meta_description
+            : `Visit ${document.name && document.name} Restaurant & Bar in ${document.geomodifier && document.geomodifier
+            }for Whiskey-Glazed burgers, wings, or ribs. Find our menu, order delivery, and timings here.`
             }`,
         },
       },
@@ -394,6 +394,9 @@ const Location: Template<LocationProps> = ({
   const [modalIsOpen, setIsOpen] = React.useState(false);
   interface EntityTypeType {
     entityType: { id: string };
+  }
+  const closeModal=()=>{
+    setIsOpen(false);
   }
 
   interface DirectoryParentType {
@@ -539,7 +542,7 @@ const Location: Template<LocationProps> = ({
       "@id": stagingBaseurl + path,
       name: bannerTitle,
     },
-  });
+  });  
 
   return (
     <>
@@ -605,14 +608,15 @@ const Location: Template<LocationProps> = ({
             {document.c_promotionImage ?
               <Modal
                 isOpen={modalIsOpen}
-                contentLabel="Example Modal">
+                contentLabel="Example Modal"
+                onRequestClose={closeModal}>
                 <Image image={document.c_promotionImage} />
                 <h1>{document.c_promotionHeading}</h1>
                 <p>{document.c_promotionTagline}</p>
                 <Link href={document.c_promotionCTA.link}>{document.c_promotionCTA.label}</Link>
                 <button onClick={() => setIsOpen(false)}>X</button>
-              </Modal> 
-              : 
+              </Modal>
+              :
               ""}
             <Banner
               name={bannerTitle}
@@ -697,7 +701,7 @@ const Location: Template<LocationProps> = ({
               />
             )}
 
-            <EclMenus eclMenus={c_eCLMenu} id={document.id} name={document.name} address={document.address}/>
+            <EclMenus eclMenus={c_eCLMenu} id={document.id} name={document.name} address={document.address} />
             <RewardSection c_rewardSection={c_rewardSection} />
             <Aboutupdate c_aboutupdate={c_aboutupdate} />
             <div className="amenities-reviews">
