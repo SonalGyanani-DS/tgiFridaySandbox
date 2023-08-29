@@ -1,0 +1,31 @@
+{
+  "$id": "c_largePromoCalloutDescription",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Large Promo Callout  - Description",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "richTextType": {
+      "maxLength": 100000,
+      "supportedFormat": [
+        "BLOCK_QUOTE",
+        "BOLD",
+        "BULLETED_LIST",
+        "CODE_BLOCK",
+        "CODE_SPAN",
+        "HEADINGS",
+        "HORIZONTAL_LINE",
+        "HYPERLINK",
+        "IMAGE",
+        "ITALICS",
+        "NUMBERED_LIST",
+        "STRIKETHROUGH",
+        "SUBSCRIPT",
+        "SUPERSCRIPT",
+        "UNDERLINE"
+      ]
+    }
+  },
+  "typeId": "richText"
+}

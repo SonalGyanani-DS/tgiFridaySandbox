@@ -1,0 +1,67 @@
+{
+  "$id": "restaurants-directory_us_mn",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Minnesota",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "Minnesota",
+        "height": 763,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/1200px-Flag_of_Minnesota.svg.png",
+        "thumbnails": [
+          {
+            "height": 763,
+            "url": "https://a.mktgcdn.com/p-sandbox/dkLpI-zI9o-9kAJpp858lI1fr9juBO9HgRI_0BupUX8/1200x763.png",
+            "width": 1200
+          },
+          {
+            "height": 394,
+            "url": "https://a.mktgcdn.com/p-sandbox/dkLpI-zI9o-9kAJpp858lI1fr9juBO9HgRI_0BupUX8/619x394.png",
+            "width": 619
+          },
+          {
+            "height": 382,
+            "url": "https://a.mktgcdn.com/p-sandbox/dkLpI-zI9o-9kAJpp858lI1fr9juBO9HgRI_0BupUX8/600x382.png",
+            "width": 600
+          },
+          {
+            "height": 125,
+            "url": "https://a.mktgcdn.com/p-sandbox/dkLpI-zI9o-9kAJpp858lI1fr9juBO9HgRI_0BupUX8/196x125.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/dkLpI-zI9o-9kAJpp858lI1fr9juBO9HgRI_0BupUX8/1200x763.png",
+        "width": 1200
+      }
+    },
+    "dm_baseEntityCount": "7",
+    "dm_childEntityIds": [
+      "93890568",
+      "93890607",
+      "93890655",
+      "93890743",
+      "93890744",
+      "93890768",
+      "93890791"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_mn_coon_rapids",
+      "restaurants-directory_us_mn_minneapolis",
+      "restaurants-directory_us_mn_maplewood",
+      "restaurants-directory_us_mn_maple_grove",
+      "restaurants-directory_us_mn_st_louis_park",
+      "restaurants-directory_us_mn_bloomington",
+      "restaurants-directory_us_mn_burnsville"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "MN",
+    "slug": "mn"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

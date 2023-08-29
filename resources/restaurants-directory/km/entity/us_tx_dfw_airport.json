@@ -1,0 +1,32 @@
+{
+  "$id": "restaurants-directory_us_tx_dfw_airport",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "5",
+    "dm_childEntityIds": [
+      "92597233",
+      "92597236",
+      "92597237",
+      "92597239",
+      "92597240"
+    ],
+    "dm_directoryChildren": [
+      "851",
+      "843",
+      "857",
+      "856",
+      "852"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_tx"
+    ],
+    "name": "DFW Airport",
+    "slug": "dfw-airport"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

@@ -1,0 +1,6 @@
+{
+  "$id": "hMSHost",
+  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
+  "name": "HMS Host",
+  "parent": "yext/root"
+}

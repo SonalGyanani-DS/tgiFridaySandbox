@@ -1,0 +1,11 @@
+{
+  "$id": "locations.tgifridays.com",
+  "$schema": "https://schema.yext.com/config/pages/domain/v1",
+  "domainName": "locations.tgifridays.com",
+  "autoGenerateSitemap": false,
+  "domainAccess": true,
+  "pagesCDNAccess": false,
+  "answersIntegration": false,
+  "reverseProxy": false,
+  "siteVersion": "pages"
+}

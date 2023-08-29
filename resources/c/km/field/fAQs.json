@@ -1,0 +1,15 @@
+{
+  "$id": "c_fAQs",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "FAQs",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "c_fAQs",
+      "maxLength": 5000
+    }
+  },
+  "typeId": "list"
+}

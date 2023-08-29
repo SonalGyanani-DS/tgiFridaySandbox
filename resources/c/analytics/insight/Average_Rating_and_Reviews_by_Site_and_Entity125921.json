@@ -1,0 +1,35 @@
+{
+  "$id": "c_Average_Rating_and_Reviews_by_Site_and_Entity125921",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Average Rating and Reviews by Site and Entity",
+  "description": "Average Rating and Reviews by Site and Entity",
+  "query": {
+    "metrics": [
+      "yext/AVERAGE_RATING",
+      "yext/NEW_REVIEWS"
+    ],
+    "fields": [
+      "entityId",
+      "name",
+      "address",
+      "yext/derivedField-postalCode",
+      "yext/derivedField-city"
+    ],
+    "dimensions": [
+      "yext/PARTNERS",
+      "yext/ENTITIES"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "between": [
+          "2023-05-01",
+          "2023-05-30"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "table": {}
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$id": "restaurants-directory_us_nc",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "North Carolina",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "NC",
+        "height": 595,
+        "sourceUrl": "https://cdn.britannica.com/85/3085-004-29C93A89/design-independence-Union-flag-convention-state-North-April-12-1776.jpg",
+        "thumbnails": [
+          {
+            "height": 595,
+            "url": "https://a.mktgcdn.com/p-sandbox/iIvcoE5WH2mjZDz8bgvkcDp-Qf1-RvQE1yweQ_W0Brw/800x595.jpg",
+            "width": 800
+          },
+          {
+            "height": 460,
+            "url": "https://a.mktgcdn.com/p-sandbox/iIvcoE5WH2mjZDz8bgvkcDp-Qf1-RvQE1yweQ_W0Brw/619x460.jpg",
+            "width": 619
+          },
+          {
+            "height": 446,
+            "url": "https://a.mktgcdn.com/p-sandbox/iIvcoE5WH2mjZDz8bgvkcDp-Qf1-RvQE1yweQ_W0Brw/600x446.jpg",
+            "width": 600
+          },
+          {
+            "height": 146,
+            "url": "https://a.mktgcdn.com/p-sandbox/iIvcoE5WH2mjZDz8bgvkcDp-Qf1-RvQE1yweQ_W0Brw/196x146.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/iIvcoE5WH2mjZDz8bgvkcDp-Qf1-RvQE1yweQ_W0Brw/800x595.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "7",
+    "dm_childEntityIds": [
+      "93890587",
+      "93890616",
+      "93890654",
+      "93890808",
+      "93890809"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_nc_greensboro",
+      "restaurants-directory_us_nc_garner",
+      "restaurants-directory_us_nc_asheville",
+      "restaurants-directory_us_nc_charlotte",
+      "restaurants-directory_us_nc_concord"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "NC",
+    "slug": "nc"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

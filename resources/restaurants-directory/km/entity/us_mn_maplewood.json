@@ -1,0 +1,24 @@
+{
+  "$id": "restaurants-directory_us_mn_maplewood",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "1",
+    "dm_childEntityIds": [
+      "92597358"
+    ],
+    "dm_directoryChildren": [
+      "2691"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_mn"
+    ],
+    "name": "Maplewood",
+    "slug": "maplewood"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

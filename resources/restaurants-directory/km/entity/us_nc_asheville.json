@@ -1,0 +1,24 @@
+{
+  "$id": "restaurants-directory_us_nc_asheville",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "1",
+    "dm_childEntityIds": [
+      "92597357"
+    ],
+    "dm_directoryChildren": [
+      "1738"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_nc"
+    ],
+    "name": "Asheville",
+    "slug": "asheville"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

@@ -1,0 +1,12 @@
+{
+  "$id": "faq-1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answer": "Happy hours are all day every day, with $2 beers, $4 cocktails, and $6 wine.",
+    "name": "When are TGI Fridays happy hours?",
+    "question": "When are TGI Fridays happy hours?"
+  },
+  "entityType": "faq",
+  "labels": []
+}

@@ -1,0 +1,9 @@
+{
+  "$id": "c_customer_services",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Customer Services",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_headerWithCTAsList"
+}

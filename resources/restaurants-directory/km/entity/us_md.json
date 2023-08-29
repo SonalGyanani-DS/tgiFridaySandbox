@@ -1,0 +1,89 @@
+{
+  "$id": "restaurants-directory_us_md",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Maryland",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "Maryland",
+        "height": 533,
+        "sourceUrl": "https://cdn.britannica.com/38/2338-004-AE838B06/flag-Proprietor-state-Maryland-family-arms-Lord-1904.jpg",
+        "thumbnails": [
+          {
+            "height": 533,
+            "url": "https://a.mktgcdn.com/p-sandbox/qjoanSlEJHndVVmH-jAzam_Ojp28yrjjy7h_amUFGT0/800x533.jpg",
+            "width": 800
+          },
+          {
+            "height": 412,
+            "url": "https://a.mktgcdn.com/p-sandbox/qjoanSlEJHndVVmH-jAzam_Ojp28yrjjy7h_amUFGT0/619x412.jpg",
+            "width": 619
+          },
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p-sandbox/qjoanSlEJHndVVmH-jAzam_Ojp28yrjjy7h_amUFGT0/600x400.jpg",
+            "width": 600
+          },
+          {
+            "height": 131,
+            "url": "https://a.mktgcdn.com/p-sandbox/qjoanSlEJHndVVmH-jAzam_Ojp28yrjjy7h_amUFGT0/196x131.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/qjoanSlEJHndVVmH-jAzam_Ojp28yrjjy7h_amUFGT0/800x533.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "18",
+    "dm_childEntityIds": [
+      "93890537",
+      "93890576",
+      "93890579",
+      "93890582",
+      "93890585",
+      "93890595",
+      "93890606",
+      "93890618",
+      "93890628",
+      "93890632",
+      "93890648",
+      "93890664",
+      "93890677",
+      "93890693",
+      "93890752",
+      "93890789",
+      "93890801",
+      "93890804"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_md_rockville",
+      "restaurants-directory_us_md_bel_air",
+      "restaurants-directory_us_md_bowie",
+      "restaurants-directory_us_md_towson",
+      "restaurants-directory_us_md_hagerstown",
+      "restaurants-directory_us_md_forestville",
+      "restaurants-directory_us_md_greenbelt",
+      "restaurants-directory_us_md_nottingham",
+      "restaurants-directory_us_md_silver_spring",
+      "restaurants-directory_us_md_largo",
+      "restaurants-directory_us_md_baltimore",
+      "restaurants-directory_us_md_frederick",
+      "restaurants-directory_us_md_annapolis",
+      "restaurants-directory_us_md_hanover",
+      "restaurants-directory_us_md_laurel",
+      "restaurants-directory_us_md_owings_mills",
+      "restaurants-directory_us_md_columbia",
+      "restaurants-directory_us_md_waldorf"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "MD",
+    "slug": "md"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

@@ -1,0 +1,6 @@
+{
+  "$id": "cFCGroup",
+  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
+  "name": "CFC Group",
+  "parent": "yext/root"
+}

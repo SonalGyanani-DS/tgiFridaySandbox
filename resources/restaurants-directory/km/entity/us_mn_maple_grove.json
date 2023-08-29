@@ -1,0 +1,24 @@
+{
+  "$id": "restaurants-directory_us_mn_maple_grove",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "1",
+    "dm_childEntityIds": [
+      "92597442"
+    ],
+    "dm_directoryChildren": [
+      "2692"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_mn"
+    ],
+    "name": "Maple Grove",
+    "slug": "maple-grove"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

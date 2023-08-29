@@ -1,0 +1,24 @@
+{
+  "$id": "restaurants-directory_us_ma_millbury",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "1",
+    "dm_childEntityIds": [
+      "92597421"
+    ],
+    "dm_directoryChildren": [
+      "647"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_ma"
+    ],
+    "name": "Millbury",
+    "slug": "millbury"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

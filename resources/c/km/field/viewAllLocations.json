@@ -1,0 +1,9 @@
+{
+  "$id": "c_viewAllLocations",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "View All Locations",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "cta"
+}

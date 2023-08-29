@@ -1,0 +1,55 @@
+{
+  "$id": "restaurants-directory_us_id",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Idaho",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "ID",
+        "height": 493,
+        "sourceUrl": "https://cdn.britannica.com/88/1488-004-CA60330D/state-flag-Idaho-military-officer-description-fact-1957.jpg",
+        "thumbnails": [
+          {
+            "height": 493,
+            "url": "https://a.mktgcdn.com/p-sandbox/KuDZrNDI7bwqYEF-ndotTpw-W_Wia3X6kNVM8IwFlVY/800x493.jpg",
+            "width": 800
+          },
+          {
+            "height": 381,
+            "url": "https://a.mktgcdn.com/p-sandbox/KuDZrNDI7bwqYEF-ndotTpw-W_Wia3X6kNVM8IwFlVY/619x381.jpg",
+            "width": 619
+          },
+          {
+            "height": 370,
+            "url": "https://a.mktgcdn.com/p-sandbox/KuDZrNDI7bwqYEF-ndotTpw-W_Wia3X6kNVM8IwFlVY/600x370.jpg",
+            "width": 600
+          },
+          {
+            "height": 121,
+            "url": "https://a.mktgcdn.com/p-sandbox/KuDZrNDI7bwqYEF-ndotTpw-W_Wia3X6kNVM8IwFlVY/196x121.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/KuDZrNDI7bwqYEF-ndotTpw-W_Wia3X6kNVM8IwFlVY/800x493.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "1",
+    "dm_childEntityIds": [
+      "93890793"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_id_nampa"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "ID",
+    "slug": "id"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

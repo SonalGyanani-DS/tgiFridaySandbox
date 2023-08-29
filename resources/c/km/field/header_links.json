@@ -1,0 +1,15 @@
+{
+  "$id": "c_header_links",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Header Links",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "cta",
+      "maxLength": 5000
+    }
+  },
+  "typeId": "list"
+}

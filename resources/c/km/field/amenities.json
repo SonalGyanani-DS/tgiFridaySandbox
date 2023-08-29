@@ -1,0 +1,9 @@
+{
+  "$id": "c_amenities",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Amenities",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_headerWithCTAsList"
+}

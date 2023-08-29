@@ -1,0 +1,33 @@
+
+{
+  "$id": "site-entity",
+  "filter": {
+    "entityIds": ["global-data"]
+  },
+  "source": "knowledgeGraph",
+  "fields": [
+      "name",      
+      "c_meta_title",
+      "c_meta_description",
+      "c_locatorBannerImage", 
+      "c_header_logo",
+      "c_header_links",
+      "c_topHeaderLinks",
+      "c_footerDescription",      
+      "c_bottomFooterLinks",
+      "c_socialIcons", 
+      "c_appLinks",    
+      "c_footerLinks",
+      "c_footerLinks2",
+      "c_drinkResponsiblyLogo",
+      "c_cookieAcceptLabel",
+      "c_noResultFoundMessage",
+      "c_cookieText",
+      "address",
+      "mainPhone"     
+  ],
+  "localization": {
+    "locales": ["en"],
+    "primary": false
+  }
+}

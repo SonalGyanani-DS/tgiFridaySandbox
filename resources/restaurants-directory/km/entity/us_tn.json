@@ -1,0 +1,61 @@
+{
+  "$id": "restaurants-directory_us_tn",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Tennessee",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "Tennessee",
+        "height": 478,
+        "sourceUrl": "https://cdn.britannica.com/42/4642-004-4871942A/flag-state-Tennessee-Centennial-Exposition-presidents-captain-1905.jpg",
+        "thumbnails": [
+          {
+            "height": 478,
+            "url": "https://a.mktgcdn.com/p-sandbox/hjFs3hJM49P7r7ykoBh0Za9muDJD619GIl3cAJscMfs/800x478.jpg",
+            "width": 800
+          },
+          {
+            "height": 370,
+            "url": "https://a.mktgcdn.com/p-sandbox/hjFs3hJM49P7r7ykoBh0Za9muDJD619GIl3cAJscMfs/619x370.jpg",
+            "width": 619
+          },
+          {
+            "height": 359,
+            "url": "https://a.mktgcdn.com/p-sandbox/hjFs3hJM49P7r7ykoBh0Za9muDJD619GIl3cAJscMfs/600x359.jpg",
+            "width": 600
+          },
+          {
+            "height": 117,
+            "url": "https://a.mktgcdn.com/p-sandbox/hjFs3hJM49P7r7ykoBh0Za9muDJD619GIl3cAJscMfs/196x117.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/hjFs3hJM49P7r7ykoBh0Za9muDJD619GIl3cAJscMfs/800x478.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "4",
+    "dm_childEntityIds": [
+      "93890534",
+      "93890638",
+      "93890695",
+      "93890795"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_tn_nashville",
+      "restaurants-directory_us_tn_jackson",
+      "restaurants-directory_us_tn_gatlinburg",
+      "restaurants-directory_us_tn_pigeon_forge"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "TN",
+    "slug": "tn"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

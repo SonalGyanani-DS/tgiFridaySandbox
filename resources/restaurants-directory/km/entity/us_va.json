@@ -1,0 +1,89 @@
+{
+  "$id": "restaurants-directory_us_va",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Virginia",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "Virginia",
+        "height": 523,
+        "sourceUrl": "https://cdn.britannica.com/40/4940-004-63FAF073/Flag-Virginia.jpg",
+        "thumbnails": [
+          {
+            "height": 523,
+            "url": "https://a.mktgcdn.com/p-sandbox/nyOiiK1SHT0Y4_l6-JZO2HII3BOS4LQgEBrmUDKPVT0/800x523.jpg",
+            "width": 800
+          },
+          {
+            "height": 405,
+            "url": "https://a.mktgcdn.com/p-sandbox/nyOiiK1SHT0Y4_l6-JZO2HII3BOS4LQgEBrmUDKPVT0/619x405.jpg",
+            "width": 619
+          },
+          {
+            "height": 392,
+            "url": "https://a.mktgcdn.com/p-sandbox/nyOiiK1SHT0Y4_l6-JZO2HII3BOS4LQgEBrmUDKPVT0/600x392.jpg",
+            "width": 600
+          },
+          {
+            "height": 128,
+            "url": "https://a.mktgcdn.com/p-sandbox/nyOiiK1SHT0Y4_l6-JZO2HII3BOS4LQgEBrmUDKPVT0/196x128.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/nyOiiK1SHT0Y4_l6-JZO2HII3BOS4LQgEBrmUDKPVT0/800x523.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "20",
+    "dm_childEntityIds": [
+      "93890552",
+      "93890583",
+      "93890588",
+      "93890594",
+      "93890603",
+      "93890617",
+      "93890619",
+      "93890621",
+      "93890625",
+      "93890650",
+      "93890651",
+      "93890659",
+      "93890704",
+      "93890705",
+      "93890751",
+      "93890767",
+      "93890786",
+      "93890810"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_va_springfield",
+      "restaurants-directory_us_va_front_royal",
+      "restaurants-directory_us_va_mclean",
+      "restaurants-directory_us_va_newport_news",
+      "restaurants-directory_us_va_alexandria",
+      "restaurants-directory_us_va_chesapeake",
+      "restaurants-directory_us_va_richmond",
+      "restaurants-directory_us_va_williamsburg",
+      "restaurants-directory_us_va_midlothian",
+      "restaurants-directory_us_va_mechanicsville",
+      "restaurants-directory_us_va_roanoke",
+      "restaurants-directory_us_va_fairfax",
+      "restaurants-directory_us_va_leesburg",
+      "restaurants-directory_us_va_woodbridge",
+      "restaurants-directory_us_va_winchester",
+      "restaurants-directory_us_va_manassas",
+      "restaurants-directory_us_va_herndon",
+      "restaurants-directory_us_va_fredericksburg"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "VA",
+    "slug": "va"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

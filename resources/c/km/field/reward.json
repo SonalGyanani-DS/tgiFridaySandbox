@@ -1,0 +1,9 @@
+{
+  "$id": "c_reward",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Reward",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_photoHeadingCTA"
+}

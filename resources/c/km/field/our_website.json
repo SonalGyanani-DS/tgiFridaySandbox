@@ -1,0 +1,9 @@
+{
+  "$id": "c_our_website",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Our Website",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_headerWithCTAsList"
+}

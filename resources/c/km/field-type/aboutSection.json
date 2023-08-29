@@ -1,0 +1,60 @@
+{
+  "$id": "c_aboutSection",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
+  "displayName": "About Section",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "heading",
+          "displayName": "Heading",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "description",
+          "displayName": "Description",
+          "isRequired": false,
+          "typeId": "list",
+          "type": {
+            "listType": {
+              "typeId": "string",
+              "maxLength": 5000,
+              "type": {
+                "stringType": {
+                  "maxLength": 100000,
+                  "stereotype": "MULTILINE"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "image",
+          "displayName": "Image",
+          "isRequired": false,
+          "typeId": "image",
+          "type": {
+            "imageType": {
+              "isSimpleImage": true,
+              "unconstrainedAspectRatioAllowed": true
+            }
+          }
+        },
+        {
+          "name": "cTAs",
+          "displayName": "CTAs",
+          "isRequired": false,
+          "typeId": "cta"
+        }
+      ]
+    }
+  }
+}

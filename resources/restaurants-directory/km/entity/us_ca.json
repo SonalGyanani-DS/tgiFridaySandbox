@@ -1,0 +1,85 @@
+{
+  "$id": "restaurants-directory_us_ca",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "California",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "California",
+        "height": 533,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/800px-Flag_of_California.svg.png",
+        "thumbnails": [
+          {
+            "height": 533,
+            "url": "https://a.mktgcdn.com/p-sandbox/AiI1abP1xjStjP6AdLQ_jo8FhFj99sJ-dzdMdTf9ywY/800x533.png",
+            "width": 800
+          },
+          {
+            "height": 412,
+            "url": "https://a.mktgcdn.com/p-sandbox/AiI1abP1xjStjP6AdLQ_jo8FhFj99sJ-dzdMdTf9ywY/619x412.png",
+            "width": 619
+          },
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p-sandbox/AiI1abP1xjStjP6AdLQ_jo8FhFj99sJ-dzdMdTf9ywY/600x400.png",
+            "width": 600
+          },
+          {
+            "height": 131,
+            "url": "https://a.mktgcdn.com/p-sandbox/AiI1abP1xjStjP6AdLQ_jo8FhFj99sJ-dzdMdTf9ywY/196x131.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/AiI1abP1xjStjP6AdLQ_jo8FhFj99sJ-dzdMdTf9ywY/800x533.png",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "16",
+    "dm_childEntityIds": [
+      "93890547",
+      "93890577",
+      "93890620",
+      "93890652",
+      "93890653",
+      "93890656",
+      "93890657",
+      "93890658",
+      "93890660",
+      "93890665",
+      "93890675",
+      "93890676",
+      "93890678",
+      "93890690",
+      "93890691",
+      "93890815"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_ca_los_angeles",
+      "restaurants-directory_us_ca_fresno",
+      "restaurants-directory_us_ca_union_city",
+      "restaurants-directory_us_ca_northridge",
+      "restaurants-directory_us_ca_simi_valley",
+      "restaurants-directory_us_ca_cerritos",
+      "restaurants-directory_us_ca_orange",
+      "restaurants-directory_us_ca_riverside",
+      "restaurants-directory_us_ca_south_gate",
+      "restaurants-directory_us_ca_west_covina",
+      "restaurants-directory_us_ca_long_beach",
+      "restaurants-directory_us_ca_carona",
+      "restaurants-directory_us_ca_san_bernardino",
+      "restaurants-directory_us_ca_rancho_cucamonga",
+      "restaurants-directory_us_ca_rosemead",
+      "restaurants-directory_us_ca_buena_park"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "CA",
+    "slug": "ca"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

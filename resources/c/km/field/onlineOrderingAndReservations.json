@@ -1,0 +1,9 @@
+{
+  "$id": "c_onlineOrderingAndReservations",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Online ordering and Reservations",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "hours"
+}

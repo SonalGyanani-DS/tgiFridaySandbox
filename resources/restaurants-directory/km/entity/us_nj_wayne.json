@@ -1,0 +1,24 @@
+{
+  "$id": "restaurants-directory_us_nj_wayne",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "1",
+    "dm_childEntityIds": [
+      "92597461"
+    ],
+    "dm_directoryChildren": [
+      "628"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_nj"
+    ],
+    "name": "Wayne",
+    "slug": "wayne"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

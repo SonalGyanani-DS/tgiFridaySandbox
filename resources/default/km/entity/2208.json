@@ -1,0 +1,740 @@
+{
+  "$id": "2208",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Richmond",
+      "countryCode": "US",
+      "line1": "4459 S Laburnum Ave",
+      "postalCode": "23231",
+      "region": "VA"
+    },
+    "c_aboutTheStoreDeals": [
+      {
+        "description": [
+          "Look forward to Wing Night Mondays with 50 cent wings from 5 pm-close EVERY Monday. Choose from a variety of wing sauces from our signature Whiskey-Glaze to classic Buffalo! Dine-In only. See restaurant for details."
+        ],
+        "heading": "DEALS IN   [[geomodifier]], [[address.region]]",
+        "image": {
+          "height": 1180,
+          "sourceUrl": "https://a.mktgcdn.com/p/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/1440x1180.jpg",
+          "thumbnails": [
+            {
+              "height": 1180,
+              "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/1440x1180.jpg",
+              "width": 1440
+            },
+            {
+              "height": 507,
+              "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/619x507.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/549x450.jpg",
+              "width": 549
+            },
+            {
+              "height": 161,
+              "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/196x161.jpg",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/1440x1180.jpg",
+          "width": 1440
+        }
+      },
+      {
+        "description": [
+          "It\u0027s always a good time at TGI Fridays with our Happy Hour featuring $4 cocktails, $2 beer, $5 wine, and $5 shooters. The best part- it’s all day, every day! Get together with friends to enjoy drinks and some of our signature apps like Potato Skins or Green Bean Fries. Dine-In only. See restaurant for details."
+        ],
+        "heading": "DEALS IN   [[geomodifier]], [[address.region]]",
+        "image": {
+          "height": 1180,
+          "sourceUrl": "https://a.mktgcdn.com/p/rPGHp8ukMP6O6CzXahosZP9HXioWzDGBbrclQbKmJVA/1440x1180.jpg",
+          "thumbnails": [
+            {
+              "height": 1180,
+              "url": "http://a.mktgcdn.com/p-sandbox/rPGHp8ukMP6O6CzXahosZP9HXioWzDGBbrclQbKmJVA/1440x1180.jpg",
+              "width": 1440
+            },
+            {
+              "height": 507,
+              "url": "http://a.mktgcdn.com/p-sandbox/rPGHp8ukMP6O6CzXahosZP9HXioWzDGBbrclQbKmJVA/619x507.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p-sandbox/rPGHp8ukMP6O6CzXahosZP9HXioWzDGBbrclQbKmJVA/549x450.jpg",
+              "width": 549
+            },
+            {
+              "height": 161,
+              "url": "http://a.mktgcdn.com/p-sandbox/rPGHp8ukMP6O6CzXahosZP9HXioWzDGBbrclQbKmJVA/196x161.jpg",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/rPGHp8ukMP6O6CzXahosZP9HXioWzDGBbrclQbKmJVA/1440x1180.jpg",
+          "width": 1440
+        }
+      }
+    ],
+    "c_aboutourstore": {
+      "cTAs": {
+        "label": "GET DIRECTIONS"
+      },
+      "description": [
+        "It\u0027s always a good time at TGI Fridays with our Happy Hour featuring $4 cocktails and $2 beer, all day, every day. And now, look forward to Wing Night Mondays with 50 cent wings from 5 pm-close EVERY Monday. Dine-In only. See restaurant for details."
+      ],
+      "heading": "DEALS IN   [[geomodifier]],  [[address.region]]",
+      "image": {
+        "alternateText": "TGI Fridays Promotion",
+        "height": 1180,
+        "sourceUrl": "https://a.mktgcdn.com/p/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/1440x1180.jpg",
+        "thumbnails": [
+          {
+            "height": 1180,
+            "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/1440x1180.jpg",
+            "width": 1440
+          },
+          {
+            "height": 507,
+            "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/619x507.jpg",
+            "width": 619
+          },
+          {
+            "height": 450,
+            "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/549x450.jpg",
+            "width": 549
+          },
+          {
+            "height": 161,
+            "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/196x161.jpg",
+            "width": 196
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p-sandbox/KSVi3-Y4Ot0pyd2FfZU3D8ghqPyngt1kSNzU50XkV7Y/1440x1180.jpg",
+        "width": 1440
+      }
+    },
+    "c_aboutupdate": {
+      "description": [
+        "In Manhattan in 1965, there was no place where people could go out to meet friends and make new ones in an environment that was at once both relaxed and yet exciting. Then, Alan Stillman opened Fridays as a way, he said, “to meet Pan Am stewardesses.” Suddenly, there was a place with great food, new and exciting drinks and an electric energy. A place where bartenders mixed the environment just as well as they mixed drinks. In short, a place like nowhere else. Today, Fridays in  [[address.city]],  [[address.region]] is still America’s most iconic bar and grill. We embrace and celebrate our heritage as a bar. One that just happens to serve killer food in an environment where it’s always Friday."
+      ],
+      "heading": "TGI Fridays",
+      "image": {
+        "height": 1180,
+        "sourceUrl": "https://a.mktgcdn.com/p/uoHZ7rgP4fwos9u43Mpw1yTaInrRTjLkhMfj1-e4cPo/1440x1180.png",
+        "thumbnails": [
+          {
+            "height": 1180,
+            "url": "http://a.mktgcdn.com/p-sandbox/fvz2MFv6PCzwieEqDAjTNpPeb23AOsIdKy-M2WEF_Gw/1440x1180.png",
+            "width": 1440
+          },
+          {
+            "height": 507,
+            "url": "http://a.mktgcdn.com/p-sandbox/fvz2MFv6PCzwieEqDAjTNpPeb23AOsIdKy-M2WEF_Gw/619x507.png",
+            "width": 619
+          },
+          {
+            "height": 450,
+            "url": "http://a.mktgcdn.com/p-sandbox/fvz2MFv6PCzwieEqDAjTNpPeb23AOsIdKy-M2WEF_Gw/549x450.png",
+            "width": 549
+          },
+          {
+            "height": 161,
+            "url": "http://a.mktgcdn.com/p-sandbox/fvz2MFv6PCzwieEqDAjTNpPeb23AOsIdKy-M2WEF_Gw/196x161.png",
+            "width": 196
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p-sandbox/fvz2MFv6PCzwieEqDAjTNpPeb23AOsIdKy-M2WEF_Gw/1440x1180.png",
+        "width": 1440
+      }
+    },
+    "c_amenitiesHeading": "Amenities At This Location",
+    "c_amenitiesList": [
+      {
+        "list": [
+          "Late Night Dining",
+          "Full Bar",
+          "Vegetarian Menu Items",
+          "Gluten Sensitive Menu Items",
+          "Kid\u0027s Menu"
+        ],
+        "title": "FOOD \u0026 DRINKS"
+      },
+      {
+        "list": [
+          "Large Parties",
+          "Fridays Rewards",
+          "World Bartending Championship",
+          "Free Wi-Fi",
+          "Happy Hour"
+        ],
+        "title": "EVENTS \u0026 PERKS"
+      },
+      {
+        "list": [
+          "Delivery",
+          "Curbside Pickup",
+          "In-Store Pickup",
+          "Reservations",
+          "Waitlist"
+        ],
+        "title": "DINE-IN \u0026 TAKE-OUT"
+      },
+      {
+        "list": [
+          "Year-Round Outdoor Seating",
+          "Dog Friendly Outdoor Seating",
+          "Wheelchair Accessible",
+          "TVs in Bar Area",
+          "TVs in Dining Area",
+          "TVs in Outdoor Area",
+          "High Chairs \u0026 Booster Seats"
+        ],
+        "title": "SEATING"
+      },
+      {
+        "list": [
+          "CDC Guidelines"
+        ],
+        "title": "HEALTH \u0026 SAFETY"
+      }
+    ],
+    "c_banner_image": {
+      "image": {
+        "alternateText": "TGI Fridays Banner Image",
+        "height": 150,
+        "sourceUrl": "https://a.mktgcdn.com/p/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/1200x150.jpg",
+        "thumbnails": [
+          {
+            "height": 150,
+            "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/1200x150.jpg",
+            "width": 1200
+          },
+          {
+            "height": 77,
+            "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/619x77.jpg",
+            "width": 619
+          },
+          {
+            "height": 75,
+            "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/600x75.jpg",
+            "width": 600
+          },
+          {
+            "height": 25,
+            "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/196x25.jpg",
+            "width": 196
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/1200x150.jpg",
+        "width": 1200
+      }
+    },
+    "c_directionLabel": "GET DIRECTIONS",
+    "c_directionUrl": "https://www.google.com/maps/dir//4459+s+laburnum+ave+richmond+va",
+    "c_fAQsHeading": "FAQ\u0027s",
+    "c_franchisee": "United Restaurant Group",
+    "c_googlePlaceId": "ChIJSaJlLUAasYkR4-dz_mEnYhw",
+    "c_googleReviewUrl": "https://www.google.com/maps/place/?q\u003dplace_id:ChIJSaJlLUAasYkR4-dz_mEnYhw",
+    "c_googleReviewsHeading": "GOOGLE REVIEWS",
+    "c_happyHoursHeading": "Happy Hours",
+    "c_hoursHeading": "Restaurant Hours",
+    "c_locationsService": [
+      {
+        "cTA": {
+          "label": "Reservations",
+          "link": "[[reservation.url]]",
+          "linkType": "URL"
+        },
+        "logo": {
+          "alternateText": "Reservations",
+          "height": 82,
+          "sourceUrl": "https://a.mktgcdn.com/p/99EFeed-_qmftw7t4ZyHAZpWzO94ZzIL4a1LxuMQqRM/82x82.png",
+          "thumbnails": [
+            {
+              "height": 82,
+              "url": "http://a.mktgcdn.com/p-sandbox/a6dwCqjdi6Ah9AgkpSpk8piFjpmEIQebcQfqqnv9W2A/82x82.png",
+              "width": 82
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/a6dwCqjdi6Ah9AgkpSpk8piFjpmEIQebcQfqqnv9W2A/82x82.png",
+          "width": 82
+        }
+      },
+      {
+        "cTA": {
+          "label": "Online Ordering",
+          "link": "[[menu.url]]",
+          "linkType": "URL"
+        },
+        "logo": {
+          "alternateText": "Online Ordering",
+          "height": 142,
+          "sourceUrl": "https://a.mktgcdn.com/p/iNi2rQtjvtYHUGAHc4gj_2fSqfVTTChcn9Puq3AAlMk/100x142.png",
+          "thumbnails": [
+            {
+              "height": 142,
+              "url": "http://a.mktgcdn.com/p-sandbox/WlJFiPPiRW310j745fSXAUGZOhVpy80-vni51AOAd4Q/100x142.png",
+              "width": 100
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/WlJFiPPiRW310j745fSXAUGZOhVpy80-vni51AOAd4Q/100x142.png",
+          "width": 100
+        }
+      },
+      {
+        "cTA": {
+          "label": "Curbside Pick-up",
+          "link": "[[menu.url]]",
+          "linkType": "URL"
+        },
+        "logo": {
+          "alternateText": "Curbside Pick-up",
+          "height": 110,
+          "sourceUrl": "https://a.mktgcdn.com/p/jHp_VybGKRy88FFZIcluPjdMNj4tB108gikhdepQAdQ/110x110.png",
+          "thumbnails": [
+            {
+              "height": 110,
+              "url": "http://a.mktgcdn.com/p-sandbox/xe2C9JCa0crWb8R1PBe2vRFYzQwJfqafqHf4kJE5Ocw/110x110.png",
+              "width": 110
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/xe2C9JCa0crWb8R1PBe2vRFYzQwJfqafqHf4kJE5Ocw/110x110.png",
+          "width": 110
+        }
+      },
+      {
+        "cTA": {
+          "label": "Deliveries",
+          "link": "[[menu.url]]",
+          "linkType": "URL"
+        },
+        "logo": {
+          "alternateText": "Deliveries",
+          "height": 79,
+          "sourceUrl": "https://a.mktgcdn.com/p/cpECzK9YzCQF-YuV1cV6-jbUSEErup95QX657dCXtTY/95x79.png",
+          "thumbnails": [
+            {
+              "height": 79,
+              "url": "http://a.mktgcdn.com/p-sandbox/7Y9_VpsPTsQJsi1ZCBDGcGq1F59unxPjogmnB-FeNi8/95x79.png",
+              "width": 95
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/7Y9_VpsPTsQJsi1ZCBDGcGq1F59unxPjogmnB-FeNi8/95x79.png",
+          "width": 95
+        }
+      }
+    ],
+    "c_meta_description": "Visit [[name]] Restaurant \u0026 Bar in [[geomodifier]] for Whiskey-Glazed burgers, wings, or ribs. Find our menu, order delivery, and timings here.",
+    "c_meta_title": "[[geomodifier]] |  [[name]] Restaurant \u0026 Bar",
+    "c_nearbyStoreHeading": "Nearby Locations",
+    "c_onlineOrderAndReservationsTime": "Online ordering and reservations available from",
+    "c_onlineOrderingAndReservations": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "00:30",
+            "start": "10:30"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "23:30",
+            "start": "10:30"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "23:30",
+            "start": "11:00"
+          }
+        ]
+      },
+      "sunday": {
+        "openIntervals": [
+          {
+            "end": "23:30",
+            "start": "11:00"
+          }
+        ]
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "23:30",
+            "start": "10:30"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "23:30",
+            "start": "10:30"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "23:30",
+            "start": "10:30"
+          }
+        ]
+      }
+    },
+    "c_orderNow": {
+      "label": "ORDER NOW",
+      "link": "https://order.tgifridays.com/menu/2208",
+      "linkType": "OTHER"
+    },
+    "c_related_FAQs": [
+      "faq-1",
+      "faq-2",
+      "faq-3"
+    ],
+    "c_reviewSectionHeading": "Reviews",
+    "c_rewardSection": {
+      "cTAs": {
+        "label": "JOIN NOW",
+        "link": "https://auth.pingone.com/b675995f-ca84-4311-b71c-e265370eb4ab/as/authorize?response_type\u003dcode\u0026client_id\u003d53889196-5204-4c19-b3c4-81f2d7f5f522\u0026redirect_uri\u003dhttps://dev.tgifridays.com/loyalty-portal/api/request.php?type\u003dauth\u0026scope\u003dopenid%20profile%20p1:read:user",
+        "linkType": "URL"
+      },
+      "description": [
+        "GET YOURSELF SOME FREE FRIDAYS. JOIN FRIDAYS REWARDS®, AND GET ALL THAT YOU DESERVE…PLUS A FREE APPETIZER* TO GET THINGS STARTED."
+      ],
+      "heading": "New Fridays Rewards",
+      "image": {
+        "height": 1180,
+        "sourceUrl": "https://a.mktgcdn.com/p/mW-NOPtCPSpfyhlYmouEblU3rVm2Pl1g_DVRUOaGjKY/1440x1180.jpg",
+        "thumbnails": [
+          {
+            "height": 1180,
+            "url": "http://a.mktgcdn.com/p-sandbox/mW-NOPtCPSpfyhlYmouEblU3rVm2Pl1g_DVRUOaGjKY/1440x1180.jpg",
+            "width": 1440
+          },
+          {
+            "height": 507,
+            "url": "http://a.mktgcdn.com/p-sandbox/mW-NOPtCPSpfyhlYmouEblU3rVm2Pl1g_DVRUOaGjKY/619x507.jpg",
+            "width": 619
+          },
+          {
+            "height": 450,
+            "url": "http://a.mktgcdn.com/p-sandbox/mW-NOPtCPSpfyhlYmouEblU3rVm2Pl1g_DVRUOaGjKY/549x450.jpg",
+            "width": 549
+          },
+          {
+            "height": 161,
+            "url": "http://a.mktgcdn.com/p-sandbox/mW-NOPtCPSpfyhlYmouEblU3rVm2Pl1g_DVRUOaGjKY/196x161.jpg",
+            "width": 196
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p-sandbox/mW-NOPtCPSpfyhlYmouEblU3rVm2Pl1g_DVRUOaGjKY/1440x1180.jpg",
+        "width": 1440
+      }
+    },
+    "c_seeAllGoogleReviewsText": "See All Google Reviews",
+    "c_serviceHeading": "Services",
+    "c_viewAllLocations": {
+      "label": "VIEW ALL LOCATIONS",
+      "link": "https://locations.tgifridays.com/",
+      "linkType": "URL"
+    },
+    "c_viewDineInMenuCTA": {
+      "label": "VIEW DINE-IN MENU",
+      "link": "https://tgifridays.com/non-price-menu/get_menu.php",
+      "linkType": "URL"
+    },
+    "c_waitlist": {
+      "label": "Join The Waitlist",
+      "link": "https://www.yelp.com/waitlist/q730neR0ihhhjvjp1uJOIQ",
+      "linkType": "OTHER"
+    },
+    "c_whatsHotItems": [
+      {
+        "cTA": {
+          "label": "ORDER NOW",
+          "link": "[[menu.url]]",
+          "linkType": "URL"
+        },
+        "image": {
+          "height": 900,
+          "sourceUrl": "https://a.mktgcdn.com/p/DVq43ixfG29-r7bdFo9o7O4s3GyJJPPQOOxrYdI9URU/750x900.jpg",
+          "thumbnails": [
+            {
+              "height": 900,
+              "url": "http://a.mktgcdn.com/p-sandbox/DVq43ixfG29-r7bdFo9o7O4s3GyJJPPQOOxrYdI9URU/750x900.jpg",
+              "width": 750
+            },
+            {
+              "height": 743,
+              "url": "http://a.mktgcdn.com/p-sandbox/DVq43ixfG29-r7bdFo9o7O4s3GyJJPPQOOxrYdI9URU/619x743.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p-sandbox/DVq43ixfG29-r7bdFo9o7O4s3GyJJPPQOOxrYdI9URU/375x450.jpg",
+              "width": 375
+            },
+            {
+              "height": 235,
+              "url": "http://a.mktgcdn.com/p-sandbox/DVq43ixfG29-r7bdFo9o7O4s3GyJJPPQOOxrYdI9URU/196x235.jpg",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/DVq43ixfG29-r7bdFo9o7O4s3GyJJPPQOOxrYdI9URU/750x900.jpg",
+          "width": 750
+        },
+        "title": "FRIDAYS SIGNATURE WHISKEY GLAZED BURGER"
+      },
+      {
+        "cTA": {
+          "label": "ORDER NOW",
+          "link": "[[menu.url]]",
+          "linkType": "URL"
+        },
+        "image": {
+          "height": 900,
+          "sourceUrl": "https://a.mktgcdn.com/p/daDYc0zam44EMOvPdLtaZDoCViCHZPEGCtD7UbBWyZo/750x900.jpg",
+          "thumbnails": [
+            {
+              "height": 900,
+              "url": "http://a.mktgcdn.com/p-sandbox/daDYc0zam44EMOvPdLtaZDoCViCHZPEGCtD7UbBWyZo/750x900.jpg",
+              "width": 750
+            },
+            {
+              "height": 743,
+              "url": "http://a.mktgcdn.com/p-sandbox/daDYc0zam44EMOvPdLtaZDoCViCHZPEGCtD7UbBWyZo/619x743.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p-sandbox/daDYc0zam44EMOvPdLtaZDoCViCHZPEGCtD7UbBWyZo/375x450.jpg",
+              "width": 375
+            },
+            {
+              "height": 235,
+              "url": "http://a.mktgcdn.com/p-sandbox/daDYc0zam44EMOvPdLtaZDoCViCHZPEGCtD7UbBWyZo/196x235.jpg",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/daDYc0zam44EMOvPdLtaZDoCViCHZPEGCtD7UbBWyZo/750x900.jpg",
+          "width": 750
+        },
+        "title": "MOZZARELLA STICKS"
+      },
+      {
+        "cTA": {
+          "label": "ORDER NOW",
+          "link": "[[menu.url]]",
+          "linkType": "URL"
+        },
+        "image": {
+          "height": 900,
+          "sourceUrl": "https://a.mktgcdn.com/p/0qGX-MT_HUQVy0w6fdkla6Xz6jfsV6KUfOh29S_f-rk/750x900.jpg",
+          "thumbnails": [
+            {
+              "height": 900,
+              "url": "http://a.mktgcdn.com/p-sandbox/0qGX-MT_HUQVy0w6fdkla6Xz6jfsV6KUfOh29S_f-rk/750x900.jpg",
+              "width": 750
+            },
+            {
+              "height": 743,
+              "url": "http://a.mktgcdn.com/p-sandbox/0qGX-MT_HUQVy0w6fdkla6Xz6jfsV6KUfOh29S_f-rk/619x743.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p-sandbox/0qGX-MT_HUQVy0w6fdkla6Xz6jfsV6KUfOh29S_f-rk/375x450.jpg",
+              "width": 375
+            },
+            {
+              "height": 235,
+              "url": "http://a.mktgcdn.com/p-sandbox/0qGX-MT_HUQVy0w6fdkla6Xz6jfsV6KUfOh29S_f-rk/196x235.jpg",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/0qGX-MT_HUQVy0w6fdkla6Xz6jfsV6KUfOh29S_f-rk/750x900.jpg",
+          "width": 750
+        },
+        "title": "BONELESS WINGS"
+      },
+      {
+        "cTA": {
+          "label": "ORDER NOW",
+          "link": "[[menu.url]]",
+          "linkType": "URL"
+        },
+        "image": {
+          "height": 900,
+          "sourceUrl": "https://a.mktgcdn.com/p/wt8KBBLv4liYrbYnmv-oYrjBCeWinY_6VjGXM31NiMQ/750x900.jpg",
+          "thumbnails": [
+            {
+              "height": 900,
+              "url": "http://a.mktgcdn.com/p-sandbox/wt8KBBLv4liYrbYnmv-oYrjBCeWinY_6VjGXM31NiMQ/750x900.jpg",
+              "width": 750
+            },
+            {
+              "height": 743,
+              "url": "http://a.mktgcdn.com/p-sandbox/wt8KBBLv4liYrbYnmv-oYrjBCeWinY_6VjGXM31NiMQ/619x743.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p-sandbox/wt8KBBLv4liYrbYnmv-oYrjBCeWinY_6VjGXM31NiMQ/375x450.jpg",
+              "width": 375
+            },
+            {
+              "height": 235,
+              "url": "http://a.mktgcdn.com/p-sandbox/wt8KBBLv4liYrbYnmv-oYrjBCeWinY_6VjGXM31NiMQ/196x235.jpg",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/wt8KBBLv4liYrbYnmv-oYrjBCeWinY_6VjGXM31NiMQ/750x900.jpg",
+          "width": 750
+        },
+        "title": "FRIDAYS SIGNATURE WHISKEY GLAZED SAMPLER"
+      },
+      {
+        "cTA": {
+          "label": "ORDER NOW",
+          "link": "[[menu.url]]",
+          "linkType": "URL"
+        },
+        "image": {
+          "height": 900,
+          "sourceUrl": "https://a.mktgcdn.com/p/GsQoA0fxYdeolWQyl5YKCuWKkj_15nTrTf_ghETUvJ8/750x900.jpg",
+          "thumbnails": [
+            {
+              "height": 900,
+              "url": "http://a.mktgcdn.com/p-sandbox/GsQoA0fxYdeolWQyl5YKCuWKkj_15nTrTf_ghETUvJ8/750x900.jpg",
+              "width": 750
+            },
+            {
+              "height": 743,
+              "url": "http://a.mktgcdn.com/p-sandbox/GsQoA0fxYdeolWQyl5YKCuWKkj_15nTrTf_ghETUvJ8/619x743.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p-sandbox/GsQoA0fxYdeolWQyl5YKCuWKkj_15nTrTf_ghETUvJ8/375x450.jpg",
+              "width": 375
+            },
+            {
+              "height": 235,
+              "url": "http://a.mktgcdn.com/p-sandbox/GsQoA0fxYdeolWQyl5YKCuWKkj_15nTrTf_ghETUvJ8/196x235.jpg",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/GsQoA0fxYdeolWQyl5YKCuWKkj_15nTrTf_ghETUvJ8/750x900.jpg",
+          "width": 750
+        },
+        "title": "BROWNIE OBSESSION"
+      }
+    ],
+    "c_whatsHotTitle": "What\u0027s Hot in  [[geomodifier]], [[countryCode]]",
+    "c_yeapWaitList": "q730neR0ihhhjvjp1uJOIQ",
+    "categoryIds": [
+      "152",
+      "1160",
+      "1162",
+      "2019"
+    ],
+    "description": "Fridays in [[geomodifier]], [[address.region]] is America’s most iconic bar and grill. We embrace and celebrate our heritage as a bar. One that just happens to serve killer food in an environment where it’s always Friday.",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_va",
+      "restaurants-directory_us_va_richmond"
+    ],
+    "featuredMessage": {
+      "description": "Order Now",
+      "url": "https://www.tgifridays.com"
+    },
+    "geomodifier": "Richmond",
+    "googleAccountId": "100511665680522052534",
+    "googlePlaceId": "ChIJSaJlLUAasYkR4-dz_mEnYhw",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "01:00",
+            "start": "11:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "00:00",
+            "start": "11:00"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "01:00",
+            "start": "11:00"
+          }
+        ]
+      },
+      "sunday": {
+        "openIntervals": [
+          {
+            "end": "00:00",
+            "start": "11:00"
+          }
+        ]
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "00:00",
+            "start": "11:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "00:00",
+            "start": "11:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "00:00",
+            "start": "11:00"
+          }
+        ]
+      }
+    },
+    "mainPhone": "+18042363860",
+    "menuUrl": {
+      "url": "https://order.tgifridays.com/menu/2208"
+    },
+    "name": "TGI Fridays",
+    "reservationUrl": {
+      "url": "https://www.yelp.com/waitlist/q730neR0ihhhjvjp1uJOIQ"
+    },
+    "slug": "[[entityId]]",
+    "timezone": "America/New_York",
+    "websiteUrl": {
+      "url": "https://locations.tgifridays.com/va/richmond/4459-s-laburnum-ave.html"
+    }
+  },
+  "entityType": "location",
+  "folder": "unitedRestaurantGroup",
+  "labels": []
+}

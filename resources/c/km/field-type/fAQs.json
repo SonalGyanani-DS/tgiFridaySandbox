@@ -1,0 +1,30 @@
+{
+  "$id": "c_fAQs",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
+  "displayName": "FAQs",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "cTA",
+          "displayName": "CTA",
+          "isRequired": false,
+          "typeId": "cta"
+        },
+        {
+          "name": "icon",
+          "displayName": "Icon",
+          "isRequired": false,
+          "typeId": "image",
+          "type": {
+            "imageType": {
+              "isSimpleImage": false,
+              "unconstrainedAspectRatioAllowed": true
+            }
+          }
+        }
+      ]
+    }
+  }
+}

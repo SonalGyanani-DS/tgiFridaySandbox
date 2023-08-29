@@ -1,0 +1,24 @@
+{
+  "$id": "restaurants-directory_us_nv_north_las_vegas",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "1",
+    "dm_childEntityIds": [
+      "92597438"
+    ],
+    "dm_directoryChildren": [
+      "744"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_nv"
+    ],
+    "name": "North Las Vegas",
+    "slug": "north-las-vegas"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

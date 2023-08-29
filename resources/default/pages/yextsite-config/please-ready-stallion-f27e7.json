@@ -1,0 +1,24 @@
+{
+  "$id": "please-ready-stallion-f27e7",
+  "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
+  "siteName": "TGI ms InstaFeed",
+  "repoConfig": "jointly-equipped-marmot-d471c",
+  "siteSettings": {
+    "autoDeploy": true,
+    "autoStage": true,
+    "autoPublish": false,
+    "pullRequestsEnabled": false,
+    "stagingCredentials": {
+      "password": "",
+      "username": ""
+    }
+  },
+  "branches": [
+    {
+      "name": "main",
+      "envVars": [],
+      "isProductionBranch": true,
+      "Active": true
+    }
+  ]
+}

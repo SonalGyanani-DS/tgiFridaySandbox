@@ -1,0 +1,33 @@
+{
+  "$id": "c_holiday",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
+  "displayName": "Holiday",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "holidayDate",
+          "displayName": "Holiday Date",
+          "isRequired": false,
+          "typeId": "date",
+          "type": {
+            "dateType": {}
+          }
+        },
+        {
+          "name": "holidayName",
+          "displayName": "Holiday Name",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        }
+      ]
+    }
+  }
+}

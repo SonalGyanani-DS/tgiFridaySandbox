@@ -1,0 +1,1227 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./fonts/Figtree-Black.ttf') format('ttf'),
+      url('./fonts/Figtree-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figtree';
+  src: url('./fonts/Figtree-Bold.ttf') format('ttf'),
+      url('./fonts/Figtree-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a{
+  @apply focus:outline-none focus-visible:outline-none
+}
+body{ @apply font-main-font font-bold text-sm lg:text-base}
+h1 {@apply text-4xl ;}
+h2 {  @apply text-2xl ;}
+.centered-container {  @apply mx-auto px-5 md:px-14 max-w-screen-xl;}
+.container-lg{  @apply mx-auto px-2.5 md:px-14 max-w-[120rem];}
+.container{
+  @apply px-2.5 lg:px-5 max-w-full xl:max-w-screen-xl 2xl:max-w-screen-2xl
+}
+
+#root{
+  @apply flex flex-col min-h-screen
+}
+
+
+
+.section { @apply mt-8 mb-16;}
+
+.primary-cta {
+  @apply bg-red hover:bg-red;
+}
+
+.secondary-cta {
+  @apply bg-red hover:bg-red;
+}
+
+.image {
+  @apply rounded-xl drop-shadow-md;
+}
+
+.image:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.social-link { @apply text-black flex gap-x-3  hover:cursor-pointer;}
+
+.card {  @apply rounded-xl drop-shadow-md;}
+
+.card:hover {  transform: scale(1.02);  transition-duration: 0.3s;  cursor: pointer;}
+.pagination-conatiner button[disabled]{ @apply hidden }
+
+.top-bar{@apply max-[739.98px]:absolute max-[739.98px]:top-6 max-[739.98px]:right-0 max-[739.98px]:z-[1] md:pt-[6px] pr-[15px]}
+.top-bar ul{@apply flex items-center text-[13px] font-main-font uppercase list-none p-0 m-0 justify-end leading-[1.7]}
+.top-bar ul li{@apply mr-[18px] last:mr-0 max-[739.98px]:last:hidden}
+.top-bar ul li a{@apply inline-block hover:text-red}
+.top-bar ul img{@apply align-middle w-7 h-[25.69px] object-cover object-[center_-3px] }
+.top-bar ul a:hover img{@apply object-[center_-36px]}
+
+.top-bar ul a span{@apply inline-block align-sub max-[739.98px]:hidden}
+
+
+nav[aria-label="Pagination"] button{  @apply rounded-none  border-red}
+nav[aria-label="Pagination"] button:hover, nav[aria-label="Pagination"] button.bg-primary-light{  @apply bg-red text-white}
+nav[aria-label="Pagination"] button:disabled{  @apply cursor-not-allowed text-opacity-60 bg-opacity-60}
+nav .active{ @apply bg-light-red}
+.selectedLabel{@apply block}
+
+/* Header */
+.site-header{ 
+  @apply py-[15px] md:pt-2.5 md:pb-0 relative
+}
+.site-header .header-top{
+  @apply border-b border-border-light border-opacity-[0.45] text-nav-link bg-white
+}
+.site-header .header-top .logo svg{
+  @apply w-36 h-auto lg:w-[14.625rem]
+}
+.site-header .header-top .logo img{
+  @apply w-36 h-auto lg:w-[14.625rem] mx-auto lg:ml-0
+}
+.site-header .container{
+  @apply flex flex-row justify-between 
+}
+.site-header .main-nav{
+  @apply text-[.92857rem] lg:text-xs uppercase text-black lg:text-nav-link relative z-[999]
+}
+.site-header .main-nav ul{
+  @apply flex items-start justify-start  lg:items-center lg:justify-around leading-[3.125rem] w-full pt-[3.125rem] lg:pt-0
+}
+.site-header .main-nav ul li{
+  @apply w-full border-t border-nav-li-border lg:border-t-0 lg:w-auto
+}
+.site-header .main-nav ul li:nth-last-child(2) a{
+  @apply text-red
+}
+.site-header .main-nav ul li a{
+  @apply inline-block w-full px-6 xl:px-8 align-top relative lg:border-t-2 border-transparent hover:border-red
+}
+
+nav.nav{@apply flex items-center justify-center leading-10 pt-[18px] pb-2.5 text-[15px]}
+nav.nav a{@apply mx-[11px] hover:text-red tracking-[1px]}
+
+.desktop nav.nav{
+  @apply hidden md:flex
+}
+
+.logo{@apply w-full text-center }
+.logo svg{@apply mx-auto lg:mx-0  }
+
+body.menu-opened{ @apply overflow-hidden lg:overflow-auto;}
+
+.mobile-nav{
+  @apply fixed top-0 left-0 bottom-0 w-[75vw] bg-white p-5 z-50 shadow-[2px_2px_3px_#bdbdbd]
+}
+.main-mobile-nav ul{
+  @apply flex flex-col
+}
+.main-mobile-nav ul.social-media-bx{
+  @apply flex-row justify-center py-[30px]
+}
+.main-mobile-nav .social-media-bx li a{
+  @apply w-[52px] h-[52px] flex items-center justify-center
+}
+.main-mobile-nav ul.links li{
+  @apply py-3.5 mt-2 w-full text-[15px] 
+}
+.main-mobile-nav ul.links li a{
+  @apply pb-2
+}
+.main-mobile-nav ul.user-links{
+  @apply flex-row justify-end pt-2.5 pb-[30px]
+}
+.main-mobile-nav ul.user-links li{
+  @apply first:hidden
+}
+.main-mobile-nav ul.user-links li a{
+  @apply underline
+}
+
+
+
+
+.menu-opened .hdr-right ul{
+  @apply right-0
+}
+/* .menu-opened .menu-btn{  @apply hidden left-auto right-5 visible transition-all ease-in-out duration-200} */
+.menu-opened .primary-nav .menu-btn{  @apply !block }
+
+.menu-opened{  @apply overflow-hidden lg:overflow-visible}
+
+
+.menu-btn{  @apply z-[9999] absolute left-4 top-6 lg:top-6 w-10 h-10 md:hidden}
+.menu-btn svg{
+  @apply w-7 mx-auto
+}
+
+.menu-btn svg.close{
+  @apply hidden
+}
+.menu-opened .menu-btn svg.humburger-i{
+  @apply hidden
+}
+.menu-opened .menu-btn svg.close{
+  @apply block  h-8 w-8}
+
+.top-hdr-links{ @apply flex  hidden lg:block content-center}
+
+
+.main-nav ul.primary-nav{
+  @apply flex flex-col lg:flex-row flex-wrap fixed lg:relative -left-full lg:left-auto top-0 lg:top-auto bottom-0 
+  lg:bottom-auto bg-white lg:bg-transparent z-50 lg:z-auto w-5/6 md:w-2/5  lg:w-auto max-w-full sm:max-w-full lg:max-w-none 
+  overflow-x-hidden overflow-y-auto lg:overflow-visible transition-all ease-in-out duration-200 lg:-ml-2.5;
+}
+.menu-opened .main-nav ul.primary-nav{  @apply left-0}
+
+.menu-opened .main-nav{ @apply lg:before:content-none before:fixed  before:left-0 before:right-0 before:top-0 before:bottom-0 before:bg-black before:bg-opacity-20  }
+
+
+
+/* banner sec */
+.banner-sec{ @apply bg-gray-light py-16 mt-4}
+.banner-sec h1{ @apply text-3xl text-center uppercase }
+
+.locator-main{ @apply px-2.5 md:px-5 xl:px-10 lg:mb-10 inline-block align-bottom w-full}
+.left-listing{ @apply w-full md:w-[370px] lg:w-[470px] xl:w-[500px] float-left }
+.left-listing h3{@apply text-base lg:text-xl }
+.map-section{@apply w-full md:w-[calc(100%_-_370px)] lg:w-[calc(100%_-_470px)] xl:w-[calc(100%_-_500px)] md:pl-4 float-right}
+.locator-map-block{
+  @apply w-full  h-[80vh] md:h-screen top-0 order-1 lg:order-none z-[99];
+}
+
+.hero-section .hero-content .banner-text.banner-dark-bg{ @apply  border-l-0 inline-block flex flex-col items-center p-4    
+  rounded-lg backdrop-blur-sm  mx-auto w-fit px-2.5 text-center }
+
+.hero-section .hero-content .banner-text.banner-dark-bg h1{
+  @apply text-[30px] lg:text-[2.5rem] lg:leading-tight mb-1.5 font-black
+}
+.banner-text .button-bx-detail{
+  @apply mt-4 md:mt-6
+}
+.hero-section .hero-content .banner-text.banner-dark-bg h3{
+  @apply text-xl md:text-2xl 
+}
+.timer .box{
+  @apply text-base md:text-xl
+}
+
+
+.for-allow{
+  @apply inline-block w-full mb-2.5 text-red
+}
+
+/* Mobile btns */
+.mobile-button{
+  @apply flex md:hidden justify-between w-full my-3.5 float-left
+}
+.mobile-button .button-bx{
+  @apply m-0 w-full justify-between max-[370px]:!flex-row flex-row px-0
+}
+.mobile-button .button-bx .btn{
+  @apply w-[48%] py-3
+}
+.mobile-button .button-bx .btn + .btn{
+  @apply mt-0
+}
+body:not(.mapView) .mobile-button .btn.listBtn{
+  @apply bg-red text-white border-transparent
+}
+body.mapView .mobile-button .btn.mapBtn{
+  @apply bg-red text-white border-transparent
+}
+
+  /* left listing */
+.search-bx{@apply  mb-2  z-20 bg-red p-4 lg:p-[22px] text-white float-left w-[calc(100%_+_20px)] md:w-[370px] lg:w-[470px] xl:w-[500px] -mx-2.5 md:mx-0 }
+.search-bx button{ white-space: nowrap; @apply float-right mr-0 relative text-white text-xs md:text-sm lg:text-base font-main-font }
+.search-bx button.useMyLocation {@apply flex items-center pl-2.5 hover:underline font-bold}
+.search-bx button.useMyLocation .icon{@apply mr-1.5}
+.search-field{@apply flex relative  }
+.search-bx .search-btn{@apply absolute top-0 rounded-none right-0  text-white p-2 w-[46px] h-[42px] sm:h-[46px] text-center bg-black}  
+.search-bx .search-btn svg{ @apply mx-auto w-5 h-5} 
+.search-field input{@apply  w-full bg-white text-black  py-2 sm:py-2.5 pr-16 pl-4 leading-[26px]  text-sm font-main-font font-bold border-none rounded-none }
+.location p{ @apply mr-2 absolute rounded-lg -left-4 top-[0px] sm:top-[2px] xl:top-1}
+.search-bx .whitespace-nowrap{  @apply text-white py-0 }
+.location{ @apply bg-location-bg mb-5 rounded shadow-sm shadow-gray-light  }
+.button-bx{
+  @apply max-[370px]:!flex-col xl:max-w-md 2xl:max-w-lg w-full
+}
+.button-bx{
+  @apply max-w-[320px] sm:max-w-full
+}
+.button-bx a + a{
+  @apply max-[370px]:ml-0 max-[370px]:mt-2.5 ml-2.5
+}
+.result-list .location{
+  @apply first:mt-0
+}
+.location .ghost-btn{
+  @apply underline mt-4 inline-block ml-7
+}
+.ghost-btn.map-link{
+  @apply underline mt-4 inline-block ml-7 
+}
+.ghost-btn{
+  @apply text-[#464646] hover:text-red
+}
+
+.location-with-filter{ @apply mb-4 flex items-center justify-between text-sm leading-5}
+.location-with-filter h2{@apply text-sm sm:text-base xl:text-xl font-black text-white my-0}
+.list-count{ @apply border-b border-gray-light mb-4 p-2 flex  flex-row items-center}
+.result-inner{@apply p-4 }
+.button-bx{@apply flex flex-row mt-2.5 pl-7 justify-between sm:justify-start}
+.button-bx.loadmore-listing{@apply ml-0 justify-center pl-0 max-w-full}
+.button-bx.loadmore-listing .btn{@apply !my-0 mx-auto w-full px-5}
+
+.button-bx-detail{@apply max-[370px]:flex-col flex flex-row mt-2.5 justify-around }
+.button-bx .btn{@apply py-2 uppercase text-center cursor-pointer leading-[1.375rem] max-[370px]:w-full w-[calc(50%_-_5px)] px-1 transition-all duration-300 first:bg-red first:text-[white] hover:bg-red text-red hover:text-white border-red border bg-white text-[15px] font-main-font font-black flex items-center justify-center hover:bg-white hover:text-red }
+
+.button-bx-detail .btn{@apply py-2 uppercase text-center cursor-pointer leading-[1.375rem] px-1 max-[370px]:w-full w-[calc(50%_-_10px)] transition-all duration-300 first:bg-red first:text-[white] hover:bg-red text-red hover:text-white border-red border bg-white text-[15px] font-main-font font-black flex items-center justify-center hover:bg-white hover:text-red }
+
+.button-bx .btn.direction{
+  @apply border-red bg-white text-red hover:!bg-red hover:!text-white
+}
+.button-bx-detail .btn.direction{
+  @apply border-red bg-white text-red hover:!bg-red hover:!text-white
+}
+
+.button-bx .btn:hover svg{@apply fill-white  }
+
+.scrollbar-container{@apply md:pr-3 md:!h-[calc(100vh_-_222px)] lg:!h-[calc(100vh_-_218px)]}
+
+.scrollbar-container.ps--active-y{ @apply pr-6}
+body .ps:hover .ps__rail-y{@apply opacity-100}
+body .ps__rail-y{ @apply opacity-100 !bg-gray-light w-4}
+body .ps__thumb-y{ @apply bg-gray-dark opacity-100 right-1 w-2}
+body .ps__rail-y:hover .ps__thumb-y{ @apply w-2 bg-gray-dark}
+
+.hours-div .accordion{
+  @apply border-none rounded-none
+}
+.hours-div .accordion__item + .accordion__item{
+  @apply border-none mt-3.5
+}
+.hours-div .accordion__button{
+  @apply text-sm  text-red border-0 border-b border-solid border-b-red bg-transparent p-0 relative pb-2 hover:bg-transparent;
+}
+.hours-div .accordion__button:before{
+  @apply border-4 border-solid border-red border-t-transparent border-l-transparent h-auto w-auto absolute top-1 right-0 m-0 rotate-[225deg]
+}
+.hours-div .accordion__button[aria-expanded='true']::before, .hours-div .accordion__button[aria-selected='true']::before{
+  @apply rotate-[45deg]
+}
+.hours-div .accordion__button .title-with-link, .hours-div .accordion__button .box-title{
+  @apply mb-0 border-b-0 pb-0
+}
+.hours-div .accordion__panel{@apply p-0}
+
+.hours-div .box-title{@apply text-sm  text-red border-0 border-b border-solid border-b-red bg-transparent p-0 relative pb-2}
+
+.hours > h3{
+  @apply text-sm  mt-4
+}
+
+table.day-hrs{  @apply border-none w-full mb-4 text-[13px] font-main-font }
+/* table.day-hrs td{ @apply  border-b border-gray-dark  } */
+
+.storeLocation-openCloseTime table.day-hrs{
+  @apply bg-white xl:max-w-md 2xl:max-w-lg border border-gray-dark border-opacity-30 border-solid mx-auto xl:right-3.5 relative
+}
+.storeLocation-openCloseTime table.day-hrs .dayName{
+  @apply w-auto max-[739px]:pr-0
+}
+.storeLocation-openCloseTime table.day-hrs .time-group{
+  @apply w-full justify-between
+}
+.storeLocation-openCloseTime .day-hrs td{
+  @apply px-2.5
+}
+.storeLocation-openCloseTime .day-hrs td.dayName{
+  @apply max-[739px]:text-xs
+}
+.storeLocation-openCloseTime table.day-hrs .currentDay .dayName .checked{
+  @apply left-2.5
+}
+
+.storeLocation-openCloseTime table.day-hrs .time-b{
+  @apply bg-location-bg max-[739px]:w-16 max-[739px]:text-xs max-[739px]:leading-[1.875rem]
+}
+
+table.day-hrs tr:last-child td{
+  @apply border-b-0
+}
+table.day-hrs .dayName{
+  @apply capitalize w-full py-1
+}
+
+table.day-hrs .currentDay .dayName{
+  @apply relative py-1 text-red
+}
+/* table.day-hrs .currentDay .dayName .checked{
+  @apply absolute top-1/2 -mt-2 left-0 bg-[black] rounded-sm w-4 h-4 z-0
+}
+table.day-hrs .currentDay .dayName .checked:after{
+  @apply content-[''] border-b-2 border-l-2 border-white transform -rotate-45 z-0 w-2.5 h-1.5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -mt-1
+} */
+
+table.day-hrs .time-group{
+  @apply inline-flex items-center
+}
+table.day-hrs .time-group .dash{
+  @apply w-2.5 h-0.5 bg-nav-link mx-1.5
+}
+table.day-hrs .dayName span{
+  @apply block text-xs text-nav-link 
+}
+table.day-hrs .currentDay .dayName{
+  @apply font-bold;
+}
+table.day-hrs .time-b{
+  @apply  w-[5rem] leading-[1.875rem] rounded-sm inline-block align-bottom text-center my-1 
+}
+
+table.day-hrs .currentDay .time-b{
+  @apply bg-white text-red rounded
+}
+.hours-sec .hours-div{
+  @apply relative
+}
+.hours-sec .hours-div .text-link{
+  @apply absolute top-0 right-0
+}
+.ReactModal__Body--open{
+  @apply overflow-hidden
+}
+.ReactModal__Content{
+  @apply max-w-[94%] md:max-w-3xl w-full max-h-[80%] !mr-0
+}
+.ReactModal__Overlay{
+  @apply !bg-black bg-opacity-80
+}
+.ReactModal__Content .closeButton {@apply absolute right-4 top-4 cursor-pointer}
+.pop-up-holiday{@apply flex flex-row border border-[black] border-b-0 last:border-b}
+.pop-up-holiday > div{@apply flex-[1_1_0] p-1.5 md:p-2.5}
+.pop-up-holiday.heading{@apply bg-[black] text-white}
+.holytime-sec{@apply w-48 flex justify-evenly}
+.Space-bx{@apply w-8 text-center}
+.op-time{@apply w-8 }
+.cl-time{@apply w-8 }
+.days-sec{@apply w-8}
+.closeButton{
+  @apply bg-[black] flex items-center justify-center rounded-full hover:opacity-80
+}
+.closeButton svg{
+  @apply w-3.5
+}
+.closeButton svg path{
+  @apply fill-white
+}
+
+
+
+
+.location-name-miles{
+  @apply relative pr-[5rem] lg:pr-[6rem] leading-5 mb-2.5
+}
+.location-name-miles h2{
+  @apply text-base lg:text-xl text-black leading-tight md:leading-tight  font-main-font
+}
+.location-name-miles .distance{
+  @apply absolute top-1 right-0 text-xs lg:text-base mt-0 text-red
+}
+.icon-row a{
+  @apply hover:underline
+}
+
+.icon-row.content-col{
+  @apply font-main-font
+}
+
+.icon-row{
+  @apply pl-7 relative mb-3 flex flex-col font-main-font 
+}
+.icon-row.location-name-miles{
+  @apply mb-2
+}
+.icon-row .icon{
+  @apply absolute top-1 left-0
+}
+.icon-row .icon img, .icon-row .icon svg{
+  @apply w-5 mr-0
+}
+.icon-row h3{
+  @apply font-main-font  text-[black] m-0 leading-5 text-sm lg:text-lg md:leading-5 mb-1.5 w-fit
+}
+.availablity-content{
+  @apply border-l border-nav-link pl-3 py-1.5
+}
+.icon-row .currentStatus{
+  @apply font-main-font  text-[black] text-sm lg:text-lg
+}
+
+
+.open-now-string svg{
+  @apply fill-gray-dark
+}
+
+
+/* pagination */
+nav[aria-label="Pagination"] button{ @apply rounded-none text-[black] border-[black]
+}
+nav[aria-label="Pagination"] button:hover, nav[aria-label="Pagination"] button.bg-primary-light{ @apply bg-[black] text-white}
+nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opacity-60 bg-opacity-60}
+
+.pagination-conatiner{ @apply mt-4}
+.nearby-btn .btn{ @apply !w-full}
+
+/* .nearby-card .button-bx{@apply flex-col md:flex-row } */
+/* .nearby-card .button-bx .btn{@apply w-full md:w-auto } */
+/* .nearby-card .button-bx .btn + .btn{@apply mt-2 md:mt-0 ml-2.5} */
+.nearby-card .ghost-btn{@apply underline mt-4 inline-block ml-7}
+/* 
+.nearby-card .button-bx .btn:hover svg{@apply !fill-red } */
+
+.nearby-card .button-bx
+
+.map-section .button-bx .btn{
+  @apply text-sm
+}
+
+
+/* locator page start  */
+
+
+
+
+/* breadcrumb */
+.breadcrumb{@apply text-black py-4 px-2.5 md:px-5 xl:px-10}
+.breadcrumb ul{
+  @apply flex flex-wrap items-center
+}
+.breadcrumb ul li{
+  @apply text-black flex items-center text-xs md:text-sm after:content-['/'] last:after:content-none after:mx-1.5
+}
+.breadcrumb ul li .home{
+  @apply flex items-center justify-center
+}
+.breadcrumb ul li .home svg{
+  @apply w-3 md:w-5
+}
+.breadcrumb ul li a{
+  @apply hover:text-red
+}
+
+/* hero-banner */
+.hero-section{
+  @apply relative z-0 overflow-hidden bg-black
+}
+.hero-section .hero-image{
+  @apply w-full h-full z-10 object-cover object-center absolute top-0 left-0 opacity-[.36]
+}
+.hero-section .hero-content{
+  @apply relative z-10 text-white text-base md:text-2xl py-6 md:py-14 leading-7 md:leading-10 h-[200px] md:min-h-[220px] min-h-[220px] lg:min-h-[290px] flex w-full items-center
+}
+.hero-section .hero-content .banner-text{
+  @apply border-l-2 border-dashed border-white px-7
+}
+.hero-section .hero-content h1{
+  @apply text-3xl lg:text-[40px] font-black mb-3
+}
+.hero-section .hero-content p{
+  @apply max-w-2xl
+}
+
+/* address sec */
+.location-information{
+  @apply flex flex-wrap w-full justify-between xl:justify-start px-2.5 xl:px-5 pt-2.5 md:pt-11 max-w-[1536px] mx-auto 
+}
+
+.address-main-sec{@apply py-4 md:py-9 md:pt-0 w-full md:w-[48%]  lg:w-[22rem] relative z-[0] md:mr-5; } 
+.address-main-sec .yelpWidget iframe{ }
+.address-main-sec .button-bx-detail{@apply pl-7 justify-start}
+.address-main-sec .button-bx-detail .btn + .btn{@apply max-[370px]:ml-0 max-[370px]:mt-2.5 ml-4 sm:ml-5}
+.address-main-sec .ghost-btn{@apply underline mt-4 inline-block ml-7}
+
+.address-main-sec .icon-row.content-col h3{@apply text-base lg:text-xl text-black leading-tight md:leading-tight  font-main-font}
+
+.address-main-sec .box-title{@apply  text-black text-xl}
+.icon-row.content-col h6{@apply text-xl  leading-tight font-main-font}
+.box-title{@apply text-base md:text-lg mb-4}
+.title-with-link{
+  @apply flex justify-between items-center mb-4
+}
+.title-with-link .box-title{
+  @apply mb-0
+}
+.text-link{
+  @apply relative cursor-pointer capitalize text-[black] hover:text-black after:content-[""] after:bg-black after:h-px after:absolute after:left-0 after:bottom-0 after:w-0 after:transition-all after:duration-500 after:hover:w-full before:content-[""] before:bg-[black] before:h-px before:absolute before:left-0 before:bottom-0 before:w-full  
+}
+
+.address-bx{@apply text-base }
+.address-bx, .phone-bx{ @apply text-base  }
+.address-bx h4{@apply text-[black]  text-base uppercase }
+.phone-bx h4{@apply text-red  text-base uppercase }
+
+.hours{@apply bg-hours-bg mt-0 lg:mt-0 w-full md:w-[48%] lg:w-[20rem] xl:w-[24.375rem] p-4 md:p-6 lg:mr-5}
+.address-with-availablity{
+  @apply flex flex-row items-start
+}
+.address-with-availablity .address{
+  @apply pr-5
+}
+.address-with-availablity > div{
+  @apply flex-1
+}
+.address-with-availablity > div.availablity-content{
+  @apply pl-1 sm:pl-3
+}
+.opennow-sec{@apply w-full flex flex-row items-center text-xs sm:text-sm mb-2.5 last:mb-0}
+.opennow-sec .icons{@apply min-w-[0.75rem] sm:min-w-[1.25rem] mr-1 sm:mr-2}
+.opennow-sec .icons img{@apply w-3 sm:w-5}
+
+.direction-button{@apply mt-6 }
+.direction-button a{@apply  !border-button-light hover:!border-transparent !border-2 }
+/* .direction-button .btn:hover svg{@apply !fill-red } */
+
+
+.address-main-sec .button-bx{
+  @apply mt-5 justify-start ml-7
+}
+.address-main-sec .button-bx .btn{
+  @apply w-auto
+}
+.availability-col{
+  @apply my-4 md:my-7
+}
+.map-sec{
+  @apply  w-full mt-5 lg:mt-0  h-[25rem] lg:h-auto lg:w-[calc(100%_-_44.5rem)] xl:w-[calc(100%_-_48.875rem)] lg:min-h-[380px]
+}
+
+.map-sec.without-hours{
+  @apply md:w-[48%] md:mt-0 lg:w-[calc(100%_-_23.25rem)] 
+}
+
+.about-sec{@apply relative before:content-none lg:before:content-[''] before:border-8 before:absolute before:bottom-10 before:top-10 before:border-red before:opacity-30 before:-z-10 before:left-16 before:right-14 px-5 lg:px-14   }
+.about-sec .about-content{@apply mt-5 lg:mt-0 w-full overflow-visible lg:w-3/5 xl:w-[50.6%] ml-auto lg:pr-10 lg:py-12 flex items-center}
+.about-sec .about-content h2{@apply  text-red text-2xl md:text-3xl }
+.about-sec .about-content .btn{@apply mt-6  }
+.about-inner-sec{ @apply flex flex-wrap }
+.button-red{@apply btn text-center border border-red bg-red px-3 lg:px-5  xl:px-7 uppercase text-xs md:text-[15px] font-black font-main-font !leading-9 inline-block  text-white  transition-all duration-300 py-0.5 hover:bg-white hover:text-red }
+
+.about-inner-sec .splide .splide__arrows{
+  @apply absolute bottom-0 left-0 p-0.5 flex
+}
+.about-inner-sec .splide .splide__arrows .splide__arrow{
+  @apply relative top-auto left-auto transform translate-x-0 translate-y-0 !opacity-100 right-0 w-[4.375rem] h-[3.75rem] rounded-none bg-white disabled:hidden
+}
+.about-inner-sec .splide .splide__arrows .splide__arrow.splide__arrow--next{
+  @apply ml-0.5
+}
+
+.about-inner-sec .splide__track{
+  @apply lg:h-full
+}
+.about-inner-sec .splide__slide img{ @apply lg:h-full lg:object-cover transition-all duration-300}
+.about-inner-sec .splide__slide img:hover{@apply transform scale-105}
+
+
+.splide__slide img{
+  @apply w-full
+}
+.splide{
+  @apply w-full
+}
+
+.offerBanner{
+  @apply w-full pb-7 md:pb-10
+}
+.offerBanner img{
+  @apply w-full shadow-2xl
+}
+
+.gallery-sec{@apply  m-0 relative  }
+.gallery-bg{@apply absolute inset-0 -z-10 }
+.gallery-bg img{@apply  w-full h-full }
+.photos-row{@apply grid gap-3 md:grid-cols-2  lg:grid-cols-3}
+.image-frame{@apply !m-2 border p-3  border-gray-dark w-full  }
+.photos-row img{@apply w-full  rounded-none object-cover h-80  }
+
+/* services sec */
+.services-sec{@apply bg-white w-full py-8 md:py-[3.625rem] }
+.sec-title{@apply mb-4 md:mb-7}
+.sec-title h2, .sec-title h1{@apply text-center text-2xl text-3xl lg:text-[2.5rem] leading-tight text-black font-black  }
+.sec-title h1{@apply mb-5}
+.services-inner{@apply flex flex-wrap  }
+.services-inner .service-icon{@apply  m-0 }
+.services-inner .item{@apply px-1.5 w-full sm:w-1/2 lg:w-1/3 my-2.5}
+.services-inner .service-item{@apply bg-light-grey flex flex-col p-3 w-full h-full }
+.service-item .service-img{@apply overflow-hidden}
+.service-img img{@apply h-52 object-cover transition-all duration-300}
+.service-item:hover img{@apply transform scale-105}
+.service-item h3{ @apply text-base md:text-xl  text-center mt-2  }
+.service-desc{@apply text-sm md:text-base text-center min-h-[6.25rem]   }
+.services-inner .button-bx .btn{@apply w-auto}
+
+.services-inner #splide-nearby{
+  @apply max-w-[20rem] md:max-w-[30rem] md:max-w-[40rem] xl:max-w-full mx-auto
+}
+.mobile-serv-item .service-img{@apply rounded-full w-32 h-32  }
+.services-inner .mobile-serv-item .service-item{@apply items-center }
+.services-inner .button-bx .btn{ @apply text-xs}
+.services-inner .mobile-serv-item{@apply w-full h-full}
+.services-inner .splide__arrow--prev{@apply -left-8 }
+.services-inner .splide__arrow--next{ @apply -right-8 }
+
+
+/* faq */
+.faq-main-sec{@apply m-0 relative md:py-16 }
+
+.faq-sec{@apply m-0 }
+.faq-card { @apply backdrop-blur-sm w-full max-w-[825px] p-2.5 md:p-5 pb-10 bg-white/90 mx-auto }
+.faq-card h2{@apply  py-2 md:py-4 text-center relative text-2xl md:text-3xl lg:text-[2.5rem] text-black font-black mb-4 }
+.faq-tab{@apply w-full text-left mt-0 border border-[#f3f3f3] }
+.faq-tab .faq-tab-label{ @apply w-full  text-black pl-4 pr-12 py-2.5 hover:text-red}
+.faq-tab button{@apply bg-[#f3f3f3] leading-7 relative w-full text-left after:absolute after:top-3 after:right-4 after:w-5 after:h-5 md:after:w-7 md:after:h-7 after:bg-plus_icon after:bg-center after:bg-no-repeat after:bg-[length:.625rem_.625rem] md:after:bg-[length:1rem_1rem] }
+.faq-tab button[aria-expanded="true"]{
+  @apply text-red after:bg-minus_icon
+}
+
+.faq-tab  .faq-tab-label.active{
+  @apply border-b-transparent before:opacity-0 text-red
+}
+.faq-tab  .faq-tab-label{ @apply flex justify-between items-center relative  cursor-pointer border-b border-faq-border }
+
+.faq-tab-content{@apply px-4 py-3 bg-opacity-25 my-3 }
+.faq-tab-label.active{ @apply justify-start }
+
+.view-more{
+  @apply text-center mt-5
+}
+
+.rating-result{@apply inline-block w-[70px] h-[13px] bg-[url(./images/star.svg)] relative mr-2}
+.rating-result span{@apply absolute top-0 left-0 h-[13px] bg-[url(./images/star-red.svg)]}
+
+/* near by */
+
+.nearby-sec{@apply bg-white w-full pb-7 md:pb-[3.75rem] }
+.nearby-sec-inner{@apply flex flex-row gap-4 justify-center pb-7 xl:pb-0 }
+.nearby-sec .splide__list{
+  @apply md:-mx-4
+}
+.nearby-sec .splide__slide{@apply md:px-4}
+.nearby-card{@apply w-full bg-[#f3f3f3] rounded-md overflow-hidden h-full z-10 relative shadow-sm lg:relative p-3 md:p-5 transition-all duration-300 hover:transform hover:scale-[1.03] flex flex-col
+}
+.nearby-card .button-bx{
+  @apply mt-auto
+}
+.near-address{ @apply flex mt-2 items-start min-h-[90px]}
+
+#splide-nearby{
+  @apply max-w-[22rem] sm:max-w-[24rem] min-[801px]:max-w-full mx-auto
+}
+.nearby-sec .splide__pagination{
+  @apply -bottom-8
+}
+.nearby-sec .splide__pagination__page{
+  @apply w-2.5 h-2.5 bg-red !opacity-40
+}
+.nearby-sec .splide__pagination__page.is-active{
+  @apply bg-red scale-100 !opacity-100
+}
+.nearby-sec .button-red{@apply mt-8}
+
+
+/* newsletter sec */
+
+.newsletter-section{ @apply bg-newslettter_bg py-6 w-full inline-block }
+.newsletter-inner{@apply  max-w-[25.75rem] mx-auto px-4  }
+.newsletter-section p{@apply text-white text-sm md:text-lg text-center md:text-left }
+.search-field-bx{@apply flex mt-6 }
+.search-field-bx input{@apply bg-white text-gray-dark w-full px-3 py-3 text-sm outline-none flex-[1_1_auto] }
+
+.search-field-bx button{@apply bg-red hover:bg-red text-white py-3 px-4 text-sm flex-[1_1_auto] whitespace-nowrap }
+
+.newsletter-logo{@apply mx-auto w-full mb-6 }
+.newsletter-logo img{@apply mx-auto  }
+
+
+
+/* footer sec */
+.site-footer{
+  @apply pt-6 md:pt-12 lg:pt-0 px-[15px] font-main-font  text-[13px]
+}
+.site-footer .container{@apply flex flex-col mx-auto flex-wrap justify-between lg:mt-16 lg:flex-row px-0 lg:px-5 }
+.store-locator{ @apply flex lg:block justify-center w-full lg:w-64 border-b border-border-light md:border-none px-5 md:px-0 }
+.link-sec-footer{ @apply w-full flex flex-col flex-wrap text-left text-black md:flex-row md:border-t border-b border-t-[#9a9090] border-b-[#9a9090] pt-2.5 md:pt-10 pb-2 md:pb-[50px] px-[25px]}
+.link-sec-footer .footer-block{@apply w-full md:w-[35%] lg:w-1/5}
+.link-sec-footer .footer-block:first-child{@apply max-[740px]:order-2 max-[740px]:border-b-0}
+.link-sec-footer .footer-block:nth-child(2){@apply max-[740px]:order-1 border-t md:border-t-0}
+.link-sec-footer .app-links{@apply w-full md:w-[30%] lg:w-[37.6%] lg:ml-[20%] pt-5 md:pt-0 max-[740px]:order-3}
+.link-sec-footer h4{@apply text-xs leading-[35px] tracking-[1px]}
+.link-sec-footer .app-links li{@apply inline-block mr-[23px] last:mr-0 max-[740px]:w-full max-[740px]:text-center max-[740px]:mr-0 max-[740px]:mt-[23px] max-[740px]:first:mt-14  }
+.link-sec-footer .app-links li a{@apply inline-block} 
+
+.copyright-bx{@apply   flex flex-col justify-center w-full md:w-[100%] items-center mt-5 md:mt-0 pb-5 lg:items-start px-5 lg:px-0 text-center lg:text-left }
+.copyright-bx .app-icons{ @apply justify-center lg:justify-start}
+.copyright-bx .social-media-bx{ @apply justify-center}
+.store-locator .store-inner{@apply relative w-1/2 lg:w-auto text-base lg:text-xl mb-4 after:content-[''] after:absolute  justify-center flex items-center flex-col after:border-r lg:after:h-auto lg:after:border-b after:border-black after:-top-2 lg:after:top-auto after:-bottom-2 after:right-0 lg:after:right-auto left-auto lg:after:left-1/4  after:w-1/2  after:last:hidden }
+.store-locator .store-inner a{@apply mt-2 hover:underline }
+
+.footer-bottom{@apply pt-[25px] md:pt-[25px] px-10 md:px-10 pb-[30px] min-[981px]:pb-[2%] min-[1350px]:pb-[27px] text-sm leading-6  font-main-font}
+.Footer-logo-Element{@apply w-[220px] mb-5}
+.footer-bottom ul{@apply flex flex-row flex-wrap text-[13px] mt-2.5 font-main-font}
+.footer-bottom ul li{@apply after:content-['|'] after:mx-[3px] last:after:content-none }
+.footer-bottom ul li a{@apply underline hover:text-red font-main-font leading-[26px] text-[13px]}
+
+.company-logo{ @apply  mt-7 lg:mt-10 }
+.social-media-bx{@apply flex-row flex w-full md:my-0 }
+.social-media-bx li{@apply mr-2 last:mr-0}
+.social-media-bx li a{@apply transform transition-all duration-300 scale-100 hover:scale-105 inline-flex flex items-center justify-center w-[60px] h-[60px]}
+.social-media-bx li a img{@apply w-auto h-auto}
+.company-logo svg{ @apply mr-0  mt-5 w-[166px] h-[70px] }
+.locator-main .active{@apply bg-[#e8eaec]}
+.fixed-hover{@apply border-[1.5px] border-red}
+
+.footer-block{
+  @apply border-b border-border-light py-3 lg:py-0 md:border-none
+}
+/* .footer-block ul{
+  @apply hidden lg:block
+} */
+.footer-block-title{
+  @apply text-lg lg:text-[1.28571rem]  leading-6 pb-1 lg:pb-2
+}
+.footer-block ul li a{
+  @apply text-xs leading-[35px] inline-block align-top hover:text-red tracking-[1px] font-main-font
+}
+
+.site-footer .MuiPaper-elevation{ @apply !rounded-none shadow-none border-b border-[#b2b3b5] }
+.site-footer .MuiPaper-elevation .MuiTypography-root{ @apply font-bold !font-main-font }
+.site-footer .MuiPaper-elevation .MuiTypography-root .MuiAccordionSummary-content{ @apply my-2.5}
+.site-footer .MuiButtonBase-root{@apply !min-h-[2.125rem]}
+.site-footer .MuiButtonBase-root .MuiAccordionSummary-content{@apply !my-0 py-3}
+.site-footer .Mui-expanded .MuiAccordionSummary-content{@apply pb-0}
+.site-footer .MuiPaper-elevation .MuiTypography-root li{ @apply list-none}
+.site-footer .MuiAccordionSummary-expandIconWrapper.Mui-expanded{@apply   content-[''] absolute  right-[1rem] transform -translate-x-1/2 -translate-y-1/2 w-3 lg:w-3 h-[1px] lg:h-0.5 bg-black }
+.site-footer .MuiAccordionSummary-expandIconWrapper.Mui-expanded svg{@apply hidden  }
+
+.site-footer .MuiPaper-elevation .MuiTypography-root li a{ @apply !font-main-font}
+
+
+
+.amenities-reviews{
+  @apply pt-14
+}
+.amenities-reviews .container > div:only-of-type{
+  @apply w-full
+}
+.amenities-wrapper{
+  @apply px-7 lg:px-[34px] pt-6 lg:pt-[26px] pb-6 lg:pb-12 bg-[#f3f3f3] w-full lg:w-3/5 mt-9 lg:mt-0
+}
+.amenities-wrapper h3{
+  @apply text-xl md:text-[25px] leading-tight font-black text-center
+}
+.amenities-wrapper h2{
+  @apply text-base  mb-2.5
+}
+.amenities-list{
+  @apply pl-3.5 text-sm  leading-8
+}
+.amenities-list li{
+  @apply relative before:content-[''] before:w-[7px] before:h-[7px] before:rounded-full before:bg-red before:absolute before:top-3 before:-left-3.5
+}
+.google-reviews{
+  @apply text-center w-full lg:w-2/5 lg:pr-[30px]
+}
+.google-reviews .review-inner{
+  @apply p-5 pb-20 bg-[#f3f3f3] h-full
+}
+.google-reviews h2{
+  @apply text-[25px]  border-b border-b-[#E6E6E6] pb-5 mb-[76px] font-black;
+}
+.google-reviews h3{
+  @apply font-bold text-lg uppercase mb-3
+}
+.google-reviews .star-rating{
+  @apply text-red
+}
+.google-reviews .all-review{
+  @apply block  mt-3
+}
+.google-reviews a{
+  @apply underline text-black
+}
+
+
+
+.services-sec .sec-title h2{
+  @apply md:text-left
+}
+.services-list{
+  @apply flex flex-wrap -mx-2 lg:-mx-3
+}
+.services-list .service-box{
+  @apply w-full sm:w-1/2 lg:w-1/4 px-2 lg:px-3 mb-2 lg:mb-0
+}
+.services-list .service-inner-box{
+  @apply bg-[#f3f3f3] rounded-[10px] px-6 py-5 w-full h-full flex items-center flex-wrap text-base lg:text-xl
+}
+.services-list .service-inner-box .icon{
+  @apply mr-2.5 bg-[url(./images/shape-curve.svg)] bg-no-repeat bg-center w-[60px] h-[60px] pl-2 pb-2
+}
+.services-list .service-inner-box .icon img{
+  @apply  object-contain object-center w-full h-full
+}
+.services-list .service-inner-box a{
+  @apply max-w-[calc(100%_-_70px)] w-fit hover:text-red
+}
+.product-list .splide__list{
+  @apply !-mx-3.5
+}
+.product-list .splide__slide{
+  @apply px-3.5
+}
+.product-list .splide__slide .product-content{
+  @apply bg-[#F3F3F3] text-center pt-3 pb-8 px-4 rounded  text-[15px] relative z-0 min-h-[92px]
+}
+.product-list .splide__slide  .button-bx-detail .btn{
+  @apply max-[370px]:mx-auto
+}
+
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+.spinner-main {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.spinner-container {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:50px;
+  height:50px;
+  background:transparent;
+  border:2px solid #fff;
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:20px;
+  color:black; 
+  z-index: 9999;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #eb0000;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+
+.loading-spinner
+{
+  display:block;
+  position:absolute;
+  top:calc(50% - 2px);
+  left:50%;
+  width:50%;
+  height:4px;
+  background:transparent;
+  transform-origin:left;
+  animation:animate 2s linear infinite;
+}
+.loading-spinner:before
+{
+  content:'';
+  position:absolute;
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:#eb0000;
+  top:-3px;
+  right:-4px;
+  box-shadow:0 0 20px #eb0000;
+}
+
+.hero .hero-content h1.small-heading{
+  @apply text-5xl
+}
+.content-list{
+  @apply pt-7 md:pt-[3.75rem] pb-4 md:pb-8 
+}
+.content-list .container{
+  @apply px-4 max-[1535px]:max-w-full
+}
+.region-list{
+  @apply flex flex-wrap -mx-2 lg:-mx-4
+}
+.region-list .storeLocation-category{
+  @apply w-1/2 md:w-1/3 lg:w-1/4 px-2 lg:px-4 mb-4 lg:mb-8
+}
+.region-list .storeLocation-category a{
+  @apply p-2 text-center border border-red bg-white rounded-md w-full inline-block align-top leading-6 transition-all duration-300 text-sm md:text-base hover:bg-red hover:text-white h-full flex items-center justify-center
+}
+
+/* .content-list.city-page{
+  @apply pb-10 md:pb-14
+} */
+.city-location .button{
+  @apply px-6
+}
+
+.content-list .sec-title{
+  @apply mb-8
+}
+.content-list .sec-title h2{
+  @apply border-b border-black text-left pb-4
+}
+
+.content-list .c_location{@apply px-2.5 lg:px-4 w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-8}
+.city-location{@apply w-full bg-[#f3f3f3] rounded-md overflow-hidden h-full z-10 relative shadow-sm lg:relative p-3 md:p-4 lg:p-5 transition-all duration-300 hover:transform hover:scale-[1.03]
+}
+
+.city-location .ghost-btn{
+  @apply underline mt-4 inline-block ml-7
+}
+
+.CookieConsent{
+  @apply rounded-tl-md rounded-tr-md !bg-white !left-0 w-full p-3.5 text-sm !text-black flex items-center max-[740px]:text-center flex-nowrap shadow-[0_0_18px_rgba(0,0,0,.2)]
+}
+.CookieConsent > div{
+  @apply !m-0
+}
+.CookieConsent > div:last-child{
+  @apply !w-full md:!w-1/3 text-center
+}
+.CookieConsent a{
+  @apply text-black underline hover:no-underline
+}
+.CookieConsent button{
+  @apply !bg-[#000] hover:!bg-red !text-white uppercase !px-10 !py-2 leading-6 !border !border-solid !border-[#000] hover:!border-red !m-0 !mt-2.5 md:!mt-0 min-w-[8.5rem]
+}
+
+
+@media screen and (max-width: 739px){
+  body:not(.mapView) .map-section{
+      @apply hidden
+  }
+  body.mapView .left-listing{
+      @apply hidden
+  }
+
+  .gm-style .gm-style-iw-c{
+    @apply !max-w-[18rem]
+  }
+  
+}
+
+/* service section */
+
+.food-list{
+  @apply pt-5 pb-0 lg:pt-14 lg:pb-10;
+}
+.food-list.center-4 .splide__arrows{
+  @apply xl:hidden
+} 
+.food-list.center-4 .splide__list{
+  @apply xl:justify-center
+}
+
+.food-list .splide li{
+  @apply px-0 sm:px-[15px];
+}
+.food-list .splide .slide-img{
+  @apply inline-block w-full h-0 pt-[100%] overflow-hidden relative rounded-2xl my-5 shadow-[0px_0px_16px_rgba(1,1,1,0.18)] transition-all duration-200 ease-in-out;
+}
+.food-list .splide li:not(.is-active) .slide-img{
+  @apply transform scale-90 sm:scale-100 opacity-50 sm:opacity-100 bg-white;
+}
+.food-list .splide .slide-img img{
+  @apply w-full h-full object-contain object-center absolute top-0 left-0 transition-all duration-300 scale-100 hover:scale-105 px-5 pb-10;
+}
+.food-list .splide h4{
+  @apply absolute bottom-0 left-0 w-full bg-[#eb0000] text-white text-center  text-sm sm:text-base uppercase py-3 transition-all duration-300;
+}
+
+ .splide .splide__arrows .splide__arrow{
+  @apply w-10 h-10 transition-all bg-[#fff] hover:bg-red disabled:bg-[#FBE8E6]   hover:opacity-100 opacity-100 disabled:opacity-70 disabled:hover:bg-[#FBE8E6]; 
+}
+.splide .splide__arrows .splide__arrow.splide__arrow--next{
+  @apply right-2 sm:right-1 md:-right-0.5 2xl:-right-1;
+}
+.splide .splide__arrows .splide__arrow.splide__arrow--prev{
+  @apply left-2 sm:left-1 md:-left-0.5 2xl:-left-1;
+}
+.splide .splide__arrows .splide__arrow svg{
+  @apply fill-black;
+}
+.splide .splide__arrows .splide__arrow:disabled:hover svg{
+  @apply fill-white;
+}
+.splide .splide__arrows .splide__arrow:disabled svg{
+  @apply fill-black
+}
+.splide .splide__arrows .splide__arrow:hover svg{
+  @apply fill-white;
+} 
+
+/* offer section */
+
+.brand-sec {
+  @apply w-full text-center ;
+}
+.brand-sec h2 {
+  @apply font-bold text-[1.625rem];
+}
+.brand-usp-inner {
+  @apply mt-8 md:justify-between justify-center  flex-wrap flex items-center;
+}
+.brand-bx {
+  @apply w-1/2  lg:w-full md:w-1/2 lg:w-auto justify-center lg:justify-start mb-4 lg:mb-0  flex  items-center pr-2 lg:first:pl-0 lg:last:pr-0 mb-5 md:mb-3; 
+}
+.brand-bx img {
+  @apply w-10 md:w-14 h-auto;
+}
+.brand-inner-content {
+  @apply text-left ml-2 md:ml-6 md:mr-3;
+}
+.brand-inner-content h3 {
+  @apply text-[0.75rem] md:text-[0.9375rem] ;
+}
+.brand-inner-content p {
+  @apply text-xs ;
+}
+.brand-sec-inner {
+  @apply m-0;
+}
+.brand-sec-inner .product-list .splide .slide-img {
+  @apply w-full flex flex-col h-full pt-2.5  overflow-hidden relative  my-0 transition-all duration-200 ease-in-out justify-center;
+}
+/* .product-list {@apply w-[70%] flex items-center ml-56}; */
+.product-list .sec-title{@apply flex-col md:flex-row items-center justify-center md:justify-between}
+.product-list .sec-title h2, .product-list .sec-title h1{@apply md:text-left md:pr-4}
+.product-list .sec-title .button-bx-detail{@apply  md:mt-0 }
+
+
+/* Photogallery */
+
+.Photogallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  /* background:#f1f1f1; */
+  padding: 15px;
+}
+.Photogalleryimg {
+  /* width: 100%; */
+  display: block;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  transition: all 100ms ease-out;
+}
+.Photogalleryimg:hover {
+  transform: scale(1.04);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+
+/* Image content section */
+.img-with-content{
+  @apply bg-white mt-7 md:mt-14 inline-block w-full align-bottom
+}
+.img-with-content .content-wrapper > div:only-of-type{
+  @apply w-full
+}
+.content-wrapper{
+  @apply flex flex-wrap bg-[#f3f3f3] min-h-full
+}
+.img-with-content.with-image .content-wrapper{
+  @apply lg:mt-[5.5rem]
+}
+.img-with-content .content-wrapper.with-image{
+  @apply lg:mt-[5.5rem]
+}
+.content-wrapper.reverse-blocks{
+  @apply lg:flex-row-reverse
+}
+.content-wrapper .img-block{
+  @apply w-full lg:w-[51%] lg:-mt-[3.75rem] lg:pb-11
+}
+.content-wrapper .img-block img{
+  @apply w-full h-full object-cover
+}
+.content-wrapper .content-block{
+  @apply w-full lg:w-[49%] px-8 md:px-14 py-8 md:py-11 leading-[30px]
+}
+.content-wrapper .content-block h3{
+  @apply mb-5 md:mb-7 text-2xl md:text-3xl lg:text-[40px] font-black text-red leading-tight
+}
+.content-wrapper .content-block p{
+  @apply mb-6 lg:mb-8 
+}
+.content-wrapper .cta-btn{
+  @apply text-white bg-red inline-flex items-center justify-center px-5 py-2 text-[15px] font-black font-main-font uppercase text-center border border-red hover:bg-white hover:text-red min-w-[158px]
+}
+.img-with-content .splide .splide__arrows .splide__arrow.splide__arrow--prev{
+  @apply left-1
+}
+.img-with-content .splide .splide__arrows .splide__arrow.splide__arrow--next{
+  @apply right-1
+}
+.img-with-content .splide .splide__arrows .splide__arrow:disabled{
+  @apply opacity-0
+}
+
+
+
+.no-found{
+  @apply text-xl md:text-2xl font-bold
+}
+
+.arrow-down{@apply relative ml-1.5 w-3.5 after:content-[''] after:border-t-[7px] after:border-l-[7px] after:border-r-[7px] after:border-transparent after:border-t-black after:absolute after:-top-1 after:left-0;}
+
+.location-information iframe{@apply ml-[29px] mt-4 ;box-shadow: 0 0 0px 1px rgb(211, 26, 33);} 
+
+

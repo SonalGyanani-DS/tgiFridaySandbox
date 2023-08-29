@@ -1,0 +1,65 @@
+{
+  "$id": "restaurants-directory_us_ct",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Connecticut",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "Connecticut",
+        "height": 618,
+        "sourceUrl": "https://cdn.britannica.com/69/7769-004-989D0811/flags-Connecticut-state-flag-design-arms-coat-1897.jpg",
+        "thumbnails": [
+          {
+            "height": 618,
+            "url": "https://a.mktgcdn.com/p-sandbox/d89B1G6do6vf-7oeHXaMlBGNbVvo402LuKQChnYxDyM/800x618.jpg",
+            "width": 800
+          },
+          {
+            "height": 478,
+            "url": "https://a.mktgcdn.com/p-sandbox/d89B1G6do6vf-7oeHXaMlBGNbVvo402LuKQChnYxDyM/619x478.jpg",
+            "width": 619
+          },
+          {
+            "height": 450,
+            "url": "https://a.mktgcdn.com/p-sandbox/d89B1G6do6vf-7oeHXaMlBGNbVvo402LuKQChnYxDyM/583x450.jpg",
+            "width": 583
+          },
+          {
+            "height": 151,
+            "url": "https://a.mktgcdn.com/p-sandbox/d89B1G6do6vf-7oeHXaMlBGNbVvo402LuKQChnYxDyM/196x151.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/d89B1G6do6vf-7oeHXaMlBGNbVvo402LuKQChnYxDyM/800x618.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "6",
+    "dm_childEntityIds": [
+      "93890611",
+      "93890612",
+      "93890613",
+      "93890614",
+      "93890727",
+      "93890733"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_ct_hamden",
+      "restaurants-directory_us_ct_newington",
+      "restaurants-directory_us_ct_orange",
+      "restaurants-directory_us_ct_manchester",
+      "restaurants-directory_us_ct_waterbury",
+      "restaurants-directory_us_ct_enfield"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "CT",
+    "slug": "ct"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

@@ -1,0 +1,15 @@
+{
+  "$id": "c_whatsHotItems",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Whats Hot Items",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "c_imageTitleCTA",
+      "maxLength": 5000
+    }
+  },
+  "typeId": "list"
+}

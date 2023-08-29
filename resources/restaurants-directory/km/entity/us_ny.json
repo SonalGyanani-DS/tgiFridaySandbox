@@ -1,0 +1,113 @@
+{
+  "$id": "restaurants-directory_us_ny",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "New York",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "New York",
+        "height": 494,
+        "sourceUrl": "https://cdn.britannica.com/14/3014-004-BD154711/flag-New-York-color-uniforms-facings-American-1909.jpg",
+        "thumbnails": [
+          {
+            "height": 494,
+            "url": "https://a.mktgcdn.com/p-sandbox/Tb0YGlr9lPEWFV_E42Lwt4OCA0Cjb_pTFK3_n0QP1a4/800x494.jpg",
+            "width": 800
+          },
+          {
+            "height": 382,
+            "url": "https://a.mktgcdn.com/p-sandbox/Tb0YGlr9lPEWFV_E42Lwt4OCA0Cjb_pTFK3_n0QP1a4/619x382.jpg",
+            "width": 619
+          },
+          {
+            "height": 371,
+            "url": "https://a.mktgcdn.com/p-sandbox/Tb0YGlr9lPEWFV_E42Lwt4OCA0Cjb_pTFK3_n0QP1a4/600x371.jpg",
+            "width": 600
+          },
+          {
+            "height": 121,
+            "url": "https://a.mktgcdn.com/p-sandbox/Tb0YGlr9lPEWFV_E42Lwt4OCA0Cjb_pTFK3_n0QP1a4/196x121.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/Tb0YGlr9lPEWFV_E42Lwt4OCA0Cjb_pTFK3_n0QP1a4/800x494.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "30",
+    "dm_childEntityIds": [
+      "93890635",
+      "93890637",
+      "93890639",
+      "93890641",
+      "93890645",
+      "93890647",
+      "93890649",
+      "93890692",
+      "93890716",
+      "93890717",
+      "93890725",
+      "93890747",
+      "93890748",
+      "93890749",
+      "93890750",
+      "93890753",
+      "93890754",
+      "93890755",
+      "93890756",
+      "93890757",
+      "93890758",
+      "93890759",
+      "93890764",
+      "93890765",
+      "93890766",
+      "93890772",
+      "93890773",
+      "93890785",
+      "93890787",
+      "93890788"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_ny_brooklyn",
+      "restaurants-directory_us_ny_islandia",
+      "restaurants-directory_us_ny_new_york",
+      "restaurants-directory_us_ny_riverhead",
+      "restaurants-directory_us_ny_islip",
+      "restaurants-directory_us_ny_white_plains",
+      "restaurants-directory_us_ny_massapequa_park",
+      "restaurants-directory_us_ny_farmingville",
+      "restaurants-directory_us_ny_buffalo",
+      "restaurants-directory_us_ny_amherst",
+      "restaurants-directory_us_ny_rochester",
+      "restaurants-directory_us_ny_central_valley",
+      "restaurants-directory_us_ny_clifton_park",
+      "restaurants-directory_us_ny_elmira",
+      "restaurants-directory_us_ny_middletown",
+      "restaurants-directory_us_ny_west_nyack",
+      "restaurants-directory_us_ny_forest_hills",
+      "restaurants-directory_us_ny_levittown",
+      "restaurants-directory_us_ny_vestal",
+      "restaurants-directory_us_ny_syracuse",
+      "restaurants-directory_us_ny_newburgh",
+      "restaurants-directory_us_ny_albany",
+      "restaurants-directory_us_ny_manhasset",
+      "restaurants-directory_us_ny_poughkeepsie",
+      "restaurants-directory_us_ny_saratoga_springs",
+      "restaurants-directory_us_ny_yonkers",
+      "restaurants-directory_us_ny_rockville_centre",
+      "restaurants-directory_us_ny_valley_stream",
+      "restaurants-directory_us_ny_bay_shore",
+      "restaurants-directory_us_ny_westbury"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "NY",
+    "slug": "ny"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

@@ -1,0 +1,15 @@
+{
+  "$id": "c_footerLinks2",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Footer Links 2",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "cta",
+      "maxLength": 5000
+    }
+  },
+  "typeId": "list"
+}

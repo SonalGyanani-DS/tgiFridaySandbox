@@ -1,0 +1,15 @@
+{
+  "$id": "c_brandItem",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Brand Item",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "c_photoHeadingCTA",
+      "maxLength": 5000
+    }
+  },
+  "typeId": "list"
+}

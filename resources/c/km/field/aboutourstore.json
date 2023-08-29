@@ -1,0 +1,9 @@
+{
+  "$id": "c_aboutourstore",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "About Our Store",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_aboutSection"
+}

@@ -1,0 +1,101 @@
+{
+  "$id": "restaurants-directory_us_nj",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "New Jersey",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "NJ",
+        "height": 480,
+        "sourceUrl": "https://cdn.britannica.com/99/2999-004-156FB7EF/state-flag-New-Jersey-George-Washington-field-1779.jpg",
+        "thumbnails": [
+          {
+            "height": 480,
+            "url": "https://a.mktgcdn.com/p-sandbox/M6mPj82-3hHsw1NT0xCJckzc7xFAg81RIifnQrtDJzA/800x480.jpg",
+            "width": 800
+          },
+          {
+            "height": 371,
+            "url": "https://a.mktgcdn.com/p-sandbox/M6mPj82-3hHsw1NT0xCJckzc7xFAg81RIifnQrtDJzA/619x371.jpg",
+            "width": 619
+          },
+          {
+            "height": 360,
+            "url": "https://a.mktgcdn.com/p-sandbox/M6mPj82-3hHsw1NT0xCJckzc7xFAg81RIifnQrtDJzA/600x360.jpg",
+            "width": 600
+          },
+          {
+            "height": 118,
+            "url": "https://a.mktgcdn.com/p-sandbox/M6mPj82-3hHsw1NT0xCJckzc7xFAg81RIifnQrtDJzA/196x118.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/M6mPj82-3hHsw1NT0xCJckzc7xFAg81RIifnQrtDJzA/800x480.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "24",
+    "dm_childEntityIds": [
+      "93890561",
+      "93890563",
+      "93890578",
+      "93890580",
+      "93890581",
+      "93890589",
+      "93890622",
+      "93890679",
+      "93890683",
+      "93890736",
+      "93890737",
+      "93890738",
+      "93890739",
+      "93890762",
+      "93890763",
+      "93890770",
+      "93890771",
+      "93890775",
+      "93890776",
+      "93890778",
+      "93890779",
+      "93890780",
+      "93890799",
+      "93890805"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_nj_brick",
+      "restaurants-directory_us_nj_springfield",
+      "restaurants-directory_us_nj_hazlet",
+      "restaurants-directory_us_nj_manahawkin",
+      "restaurants-directory_us_nj_toms_river",
+      "restaurants-directory_us_nj_east_windsor",
+      "restaurants-directory_us_nj_eatontown",
+      "restaurants-directory_us_nj_north_brunswick",
+      "restaurants-directory_us_nj_west_orange",
+      "restaurants-directory_us_nj_burlington_township",
+      "restaurants-directory_us_nj_marlton",
+      "restaurants-directory_us_nj_cherry_hill",
+      "restaurants-directory_us_nj_princeton",
+      "restaurants-directory_us_nj_wayne",
+      "restaurants-directory_us_nj_hackensack",
+      "restaurants-directory_us_nj_piscataway",
+      "restaurants-directory_us_nj_watchung",
+      "restaurants-directory_us_nj_hamilton",
+      "restaurants-directory_us_nj_old_bridge",
+      "restaurants-directory_us_nj_linden",
+      "restaurants-directory_us_nj_bridgewater",
+      "restaurants-directory_us_nj_iselin",
+      "restaurants-directory_us_nj_ledgewood",
+      "restaurants-directory_us_nj_turnersville"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "NJ",
+    "slug": "nj"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}

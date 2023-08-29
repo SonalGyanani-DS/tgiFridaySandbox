@@ -1,0 +1,355 @@
+{
+  "$id": "global-data",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Dallas",
+      "countryCode": "US",
+      "line1": "19111 Dallas Pkwy #165",
+      "postalCode": "75287",
+      "region": "TX"
+    },
+    "c_appLinks": [
+      {
+        "logo": {
+          "height": 40,
+          "sourceUrl": "https://a.mktgcdn.com/p/tINw6XxPZe57jsHBttX7hol7Prh9beyRshu2lBINkS4/135x40.png",
+          "thumbnails": [
+            {
+              "height": 40,
+              "url": "http://a.mktgcdn.com/p-sandbox/tINw6XxPZe57jsHBttX7hol7Prh9beyRshu2lBINkS4/135x40.png",
+              "width": 135
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/tINw6XxPZe57jsHBttX7hol7Prh9beyRshu2lBINkS4/135x40.png",
+          "width": 135
+        },
+        "uRl": "https://itunes.apple.com/app/apple-store/id506485378"
+      },
+      {
+        "logo": {
+          "height": 41,
+          "sourceUrl": "https://a.mktgcdn.com/p/cpse6VGEm3RYbO5NQdTAQ0Gn5M9iixauQ7iT5d7F6ec/135x41.png",
+          "thumbnails": [
+            {
+              "height": 41,
+              "url": "http://a.mktgcdn.com/p-sandbox/cpse6VGEm3RYbO5NQdTAQ0Gn5M9iixauQ7iT5d7F6ec/135x41.png",
+              "width": 135
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/cpse6VGEm3RYbO5NQdTAQ0Gn5M9iixauQ7iT5d7F6ec/135x41.png",
+          "width": 135
+        },
+        "uRl": "https://play.google.com/store/apps/details?id\u003dcom.TGIF.Fridays\u0026hl\u003den\u0026gl\u003dUS"
+      }
+    ],
+    "c_bottomFooterLinks": [
+      {
+        "label": "PRIVACY",
+        "link": "https://tgifridays.com/privacy/",
+        "linkType": "URL"
+      },
+      {
+        "label": "TERMS \u0026 CONDITIONS",
+        "link": "https://tgifridays.com/terms-and-conditions/",
+        "linkType": "URL"
+      },
+      {
+        "label": "DO NOT SELL MY PERSONAL INFORMATION",
+        "link": "https://tgifridays.com/ccpa/",
+        "linkType": "URL"
+      },
+      {
+        "label": "ACCESSIBILITY STATEMENT",
+        "link": "https://tgifridays.com/accessibility-statement/",
+        "linkType": "URL"
+      }
+    ],
+    "c_cookieAcceptLabel": "GOT IT",
+    "c_cookieText": "This website uses cookies to ensure you get the best experience on our website. [our use of cookies](https://tgifridays.com/privacy/).",
+    "c_drinkResponsiblyLogo": {
+      "description": "Drink Responsibly",
+      "details": "Drink Responsibly",
+      "image": {
+        "alternateText": "Drink Responsibly",
+        "height": 50,
+        "sourceUrl": "https://a.mktgcdn.com/p/a7iTCVV2jAI1FmxI4Up-UnXr-6Whtps5l-nBaRiBdZY/300x50.png",
+        "thumbnails": [
+          {
+            "height": 50,
+            "url": "http://a.mktgcdn.com/p-sandbox/3Dc3xpUmjPAj3Vf7bIuTnXwLHjR0NfzRWcReM-9WE5Y/300x50.png",
+            "width": 300
+          },
+          {
+            "height": 33,
+            "url": "http://a.mktgcdn.com/p-sandbox/3Dc3xpUmjPAj3Vf7bIuTnXwLHjR0NfzRWcReM-9WE5Y/196x33.png",
+            "width": 196
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p-sandbox/3Dc3xpUmjPAj3Vf7bIuTnXwLHjR0NfzRWcReM-9WE5Y/300x50.png",
+        "width": 300
+      }
+    },
+    "c_footerDescription": "© 2023 TGI Fridays Franchisor, LLC. Drink responsibly. Select locations. See restaurant for details.",
+    "c_footerLinks": [
+      {
+        "label": "NUTRITIONAL INFORMATION",
+        "link": "https://tgifridays.com/wp-content/uploads/2022/08/Nutritionals_0622_07272022-1.pdf",
+        "linkType": "URL"
+      },
+      {
+        "label": "ALLERGEN MENU",
+        "link": "https://tgifridays.com/downloads/images/pdf/Q2_Allergen_S_0322_R4.pdf",
+        "linkType": "URL"
+      },
+      {
+        "label": "LARGE PRINT MENU",
+        "link": "https://tgifridays.com/downloads/images/pdf/Q2_BRAILLE_S_0322_R2_03212022.pdf",
+        "linkType": "URL"
+      },
+      {
+        "label": "PRIVACY",
+        "link": "https://tgifridays.com/privacy/",
+        "linkType": "URL"
+      },
+      {
+        "label": "CAREERS",
+        "link": "https://tgifridays.com/careers/",
+        "linkType": "URL"
+      },
+      {
+        "label": "CONTACT US",
+        "link": "https://tgifridays.com/contactUS/",
+        "linkType": "URL"
+      },
+      {
+        "label": "RESPONSIBILITY",
+        "link": "https://tgifridays.com/responsibility/",
+        "linkType": "URL"
+      }
+    ],
+    "c_footerLinks2": [
+      {
+        "label": "NEWSROOM",
+        "link": "https://tgifridays.com/newsroom/",
+        "linkType": "URL"
+      },
+      {
+        "label": "FRANCHISE INFORMATION",
+        "link": "https://tgifridays.com/franchise/",
+        "linkType": "URL"
+      },
+      {
+        "label": "HEALTH CARE TRANSPARENCY",
+        "link": "https://www.bcbstx.com/asomrf?EIN\u003d132677117",
+        "linkType": "OTHER"
+      },
+      {
+        "label": "GIFT CARDS",
+        "link": "https://tgifridays.com/giftcards/",
+        "linkType": "URL"
+      }
+    ],
+    "c_header_links": [
+      {
+        "label": "ORDER ONLINE",
+        "link": "https://order.tgifridays.com/",
+        "linkType": "URL"
+      },
+      {
+        "label": "VIEW MENU",
+        "link": "https://tgifridays.com/non-price-menu/get_menu.php",
+        "linkType": "URL"
+      },
+      {
+        "label": "LOCATIONS",
+        "link": "https://locations.tgifridays.com/",
+        "linkType": "URL"
+      },
+      {
+        "label": "OUR CRAFT",
+        "link": "https://tgifridays.com/at-the-bar/",
+        "linkType": "URL"
+      },
+      {
+        "label": "REWARDS",
+        "link": "https://tgifridays.com/loyalty-portal/rewards.php",
+        "linkType": "URL"
+      },
+      {
+        "label": "PROMOTIONS",
+        "link": "https://tgifridays.com/promotions/",
+        "linkType": "URL"
+      }
+    ],
+    "c_header_logo": {
+      "image": {
+        "height": 129,
+        "sourceUrl": "https://a.mktgcdn.com/p/oJ4nG7NgZoq5PjEkD_PpTUDU1P45Q-ZWY80zQ3Qs1HY/338x129.png",
+        "thumbnails": [
+          {
+            "height": 129,
+            "url": "http://a.mktgcdn.com/p-sandbox/NthL7p56Yb7QN51-tKX0-3BibMbNUpevmu4BRFnXByY/338x129.png",
+            "width": 338
+          },
+          {
+            "height": 75,
+            "url": "http://a.mktgcdn.com/p-sandbox/NthL7p56Yb7QN51-tKX0-3BibMbNUpevmu4BRFnXByY/196x75.png",
+            "width": 196
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p-sandbox/NthL7p56Yb7QN51-tKX0-3BibMbNUpevmu4BRFnXByY/338x129.png",
+        "width": 338
+      }
+    },
+    "c_locatorBannerImage": {
+      "image": {
+        "alternateText": "TGI Fridays",
+        "height": 150,
+        "sourceUrl": "https://a.mktgcdn.com/p/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/1200x150.jpg",
+        "thumbnails": [
+          {
+            "height": 150,
+            "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/1200x150.jpg",
+            "width": 1200
+          },
+          {
+            "height": 77,
+            "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/619x77.jpg",
+            "width": 619
+          },
+          {
+            "height": 75,
+            "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/600x75.jpg",
+            "width": 600
+          },
+          {
+            "height": 25,
+            "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/196x25.jpg",
+            "width": 196
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p-sandbox/7nJNarZiZVNRNZ9EcWRA4imITt36MnS6o83Hi3Nr7f0/1200x150.jpg",
+        "width": 1200
+      }
+    },
+    "c_meta_description": "Search all TGI Fridays restaurant locations in the United States to find your nearest spot for great food and amazing drinks, from burgers to steak, beer to cocktails.",
+    "c_meta_title": "TGI Fridays Restaurant Locations",
+    "c_noResultFoundMessage": "Sorry, No Location Found For Related Search",
+    "c_socialIcons": [
+      {
+        "cTA": {
+          "label": "Instagram",
+          "link": "https://www.instagram.com/tgifridays/",
+          "linkType": "URL"
+        },
+        "logo": {
+          "height": 30,
+          "sourceUrl": "https://a.mktgcdn.com/p/aQJtc5Jriw34h6zOXvW-2dwlPZg-jIzYHXngOX1TiwM/28x30.png",
+          "thumbnails": [
+            {
+              "height": 30,
+              "url": "http://a.mktgcdn.com/p-sandbox/-pamkD38abuKrQYDNbQ_ZYRjRUcTHYb9lorL_6ZydcU/28x30.png",
+              "width": 28
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p-sandbox/-pamkD38abuKrQYDNbQ_ZYRjRUcTHYb9lorL_6ZydcU/28x30.png",
+          "width": 28
+        }
+      },
+      {
+        "cTA": {
+          "label": "Facebook",
+          "link": "https://www.facebook.com/TGIFridays/",
+          "linkType": "URL"
+        },
+        "logo": {
+          "height": 31,
+          "sourceUrl": "https://a.mktgcdn.com/p/gQc0n8JZAa_hq2D8_EnoxId-FtpBLZ8pZDdUvJhiHwU/19x31.png",
+          "thumbnails": [
+            {
+              "height": 31,
+              "url": "http://a.mktgcdn.com/p-sandbox/0oh59HsPZmHVrDH7g5jF835OCuZqdrBCowrIxffEwPs/19x31.png",
+              "width": 19
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p-sandbox/0oh59HsPZmHVrDH7g5jF835OCuZqdrBCowrIxffEwPs/19x31.png",
+          "width": 19
+        }
+      },
+      {
+        "cTA": {
+          "label": "Twitter",
+          "link": "https://twitter.com/TGIFridays",
+          "linkType": "URL"
+        },
+        "logo": {
+          "height": 30,
+          "sourceUrl": "https://a.mktgcdn.com/p/cpUYTDYITrjPWF__7uaphhHYGfniZVMcii246UvhtWs/31x30.png",
+          "thumbnails": [
+            {
+              "height": 30,
+              "url": "http://a.mktgcdn.com/p-sandbox/PAryTs28kteWgAvpdqa3IK9_ywUaEvdwIRK8AI78vkk/31x30.png",
+              "width": 31
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p-sandbox/PAryTs28kteWgAvpdqa3IK9_ywUaEvdwIRK8AI78vkk/31x30.png",
+          "width": 31
+        }
+      },
+      {
+        "cTA": {
+          "label": "YouTube",
+          "link": "https://youtu.be/m5OkpAQwGeE",
+          "linkType": "URL"
+        },
+        "logo": {
+          "height": 32,
+          "thumbnails": [
+            {
+              "height": 32,
+              "url": "https://a.mktgcdn.com/p-sandbox/h4C8qOfLt0L6Q3_u_RFIfcxvqDVIfPgj5p2NDczf8U4/32x32.png",
+              "width": 32
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p-sandbox/h4C8qOfLt0L6Q3_u_RFIfcxvqDVIfPgj5p2NDczf8U4/32x32.png",
+          "width": 32
+        }
+      }
+    ],
+    "c_topHeaderLinks": [
+      {
+        "cTA": {
+          "label": "CART",
+          "link": "https://order.tgifridays.com/checkout",
+          "linkType": "URL"
+        },
+        "logo": {
+          "height": 200,
+          "sourceUrl": "https://a.mktgcdn.com/p/iT3x5Iyff3gC3p-WRKi4BfYr97ERu568AORaoHYK22A/86x200.png",
+          "thumbnails": [
+            {
+              "height": 200,
+              "url": "http://a.mktgcdn.com/p-sandbox/oIbJHAchk-41lI9bi3B-43F7QYdumu2vyYX1u2RI44A/86x200.png",
+              "width": 86
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/oIbJHAchk-41lI9bi3B-43F7QYdumu2vyYX1u2RI44A/86x200.png",
+          "width": 86
+        }
+      },
+      {
+        "cTA": {
+          "label": "SIGN IN",
+          "link": "https://auth.pingone.com/b675995f-ca84-4311-b71c-e265370eb4ab/as/authorize?response_type\u003dcode\u0026client_id\u003d53889196-5204-4c19-b3c4-81f2d7f5f522\u0026redirect_uri\u003dhttps://dev.tgifridays.com/loyalty-portal/api/request.php?type\u003dauth\u0026scope\u003dopenid%20profile%20p1:read:user",
+          "linkType": "URL"
+        }
+      }
+    ],
+    "mainPhone": "+19726625400",
+    "name": "Global Data"
+  },
+  "entityType": "ce_locator",
+  "labels": []
+}

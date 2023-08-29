@@ -1,0 +1,26 @@
+{
+  "$id": "restaurants-directory_us_tx_houston",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "2",
+    "dm_childEntityIds": [
+      "92597373",
+      "92597388"
+    ],
+    "dm_directoryChildren": [
+      "669",
+      "667"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_tx"
+    ],
+    "name": "Houston",
+    "slug": "houston"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

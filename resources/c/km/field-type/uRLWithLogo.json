@@ -1,0 +1,36 @@
+{
+  "$id": "c_uRLWithLogo",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
+  "displayName": "URL With Logo",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "logo",
+          "displayName": "Logo",
+          "isRequired": false,
+          "typeId": "image",
+          "type": {
+            "imageType": {
+              "isSimpleImage": true,
+              "unconstrainedAspectRatioAllowed": true
+            }
+          }
+        },
+        {
+          "name": "uRl",
+          "displayName": "URl",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "URL",
+              "maxLength": 2000
+            }
+          }
+        }
+      ]
+    }
+  }
+}

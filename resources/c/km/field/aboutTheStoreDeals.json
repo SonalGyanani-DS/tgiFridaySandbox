@@ -1,0 +1,15 @@
+{
+  "$id": "c_aboutTheStoreDeals",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "About the Store - Deals",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "c_aboutSection",
+      "maxLength": 5000
+    }
+  },
+  "typeId": "list"
+}

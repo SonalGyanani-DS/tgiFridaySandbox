@@ -1,0 +1,24 @@
+{
+  "$id": "restaurants-directory_us_il_bedford_park",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "dm_baseEntityCount": "1",
+    "dm_childEntityIds": [
+      "92597514"
+    ],
+    "dm_directoryChildren": [
+      "1850"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us",
+      "restaurants-directory_us_il"
+    ],
+    "name": "Bedford Park",
+    "slug": "bedford-park"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

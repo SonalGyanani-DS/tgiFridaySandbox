@@ -1,0 +1,59 @@
+{
+  "$id": "restaurants-directory_us_mo",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Missouri",
+    "c_banner_image": {
+      "image": {
+        "alternateText": "MO",
+        "height": 467,
+        "sourceUrl": "https://cdn.britannica.com/31/2731-004-603DF34F/commemoration-state-flag-tricolor-Missouri-French-amount-1913.jpg",
+        "thumbnails": [
+          {
+            "height": 467,
+            "url": "https://a.mktgcdn.com/p-sandbox/zzrmRxnBWpl-vZpPuvOxGh90NB6UzQlJVmMOdDQ9m_8/800x467.jpg",
+            "width": 800
+          },
+          {
+            "height": 361,
+            "url": "https://a.mktgcdn.com/p-sandbox/zzrmRxnBWpl-vZpPuvOxGh90NB6UzQlJVmMOdDQ9m_8/619x361.jpg",
+            "width": 619
+          },
+          {
+            "height": 350,
+            "url": "https://a.mktgcdn.com/p-sandbox/zzrmRxnBWpl-vZpPuvOxGh90NB6UzQlJVmMOdDQ9m_8/600x350.jpg",
+            "width": 600
+          },
+          {
+            "height": 114,
+            "url": "https://a.mktgcdn.com/p-sandbox/zzrmRxnBWpl-vZpPuvOxGh90NB6UzQlJVmMOdDQ9m_8/196x114.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/zzrmRxnBWpl-vZpPuvOxGh90NB6UzQlJVmMOdDQ9m_8/800x467.jpg",
+        "width": 800
+      }
+    },
+    "dm_baseEntityCount": "3",
+    "dm_childEntityIds": [
+      "93890671",
+      "93890714",
+      "93890800"
+    ],
+    "dm_directoryChildren": [
+      "restaurants-directory_us_mo_saint_charles",
+      "restaurants-directory_us_mo_saint_louis",
+      "restaurants-directory_us_mo_columbia"
+    ],
+    "dm_directoryManagerId": "restaurants-directory",
+    "dm_directoryParents": [
+      "restaurants-directory",
+      "restaurants-directory_us"
+    ],
+    "name": "MO",
+    "slug": "mo"
+  },
+  "entityType": "ce_region",
+  "labels": []
+}
