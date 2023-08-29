@@ -73,7 +73,7 @@ export const AboutTourStore = (props: AboutTourStoreProps) => {
                             ? "_blank"
                             : "tab"
                         }
-                        eventName={`${c_aboutourstore?.heading} ${c_aboutourstore.cTAs?.label} ${index+1}`}
+                        eventName={`${(c_aboutourstore?.heading).replaceAll(" ","_")}_${c_aboutourstore.cTAs?.label}_${index+1}`}
                         data-ya-track={`${c_aboutourstore?.heading} ${c_aboutourstore.cTAs?.label} ${index+1}`}
                         rel="noopener noreferrer"
                         href={c_aboutourstore.cTAs.link}
