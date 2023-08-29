@@ -1,6 +1,0 @@
-{
-  "$id": "johnBogle",
-  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
-  "name": "John Bogle",
-  "parent": "corporate"
-}

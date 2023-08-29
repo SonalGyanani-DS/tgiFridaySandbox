@@ -1,9 +1,0 @@
-{
-  "$id": "c_waitlist",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Wait List CTA",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "typeId": "cta"
-}

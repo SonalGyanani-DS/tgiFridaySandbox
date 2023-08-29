@@ -1,6 +1,0 @@
-{
-  "$id": "royalAmerican",
-  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
-  "name": "Royal American",
-  "parent": "yext/root"
-}

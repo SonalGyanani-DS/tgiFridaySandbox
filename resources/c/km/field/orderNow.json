@@ -1,9 +1,0 @@
-{
-  "$id": "c_orderNow",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Order Now CTA",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "typeId": "cta"
-}

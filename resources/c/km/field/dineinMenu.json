@@ -1,9 +1,0 @@
-{
-  "$id": "c_dineinMenu",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Dine In Menu",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "typeId": "cta"
-}

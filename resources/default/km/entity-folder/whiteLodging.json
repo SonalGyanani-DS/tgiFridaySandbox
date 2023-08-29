@@ -1,6 +1,0 @@
-{
-  "$id": "whiteLodging",
-  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
-  "name": "White Lodging",
-  "parent": "yext/root"
-}

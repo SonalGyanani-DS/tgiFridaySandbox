@@ -1,8 +1,0 @@
-{
-  "$id": "c_promotionCTA",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "displayName": "Promotion CTA",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "typeId": "cta"
-}

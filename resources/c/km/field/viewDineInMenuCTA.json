@@ -1,9 +1,0 @@
-{
-  "$id": "c_viewDineInMenuCTA",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "View Dine In Menu CTA",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "typeId": "cta"
-}

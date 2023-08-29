@@ -1,7 +1,0 @@
-{
-  "$id": "ce_region",
-  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
-  "description": "Use this entity type to add the regions for which your locations are located.",
-  "displayName": "Region",
-  "pluralDisplayName": "Regions"
-}

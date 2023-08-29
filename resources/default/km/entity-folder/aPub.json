@@ -1,6 +1,0 @@
-{
-  "$id": "aPub",
-  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
-  "name": "A Pub",
-  "parent": "yext/root"
-}

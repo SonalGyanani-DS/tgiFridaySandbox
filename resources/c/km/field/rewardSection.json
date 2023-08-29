@@ -1,9 +1,0 @@
-{
-  "$id": "c_rewardSection",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Reward Section",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "typeId": "c_aboutSection"
-}

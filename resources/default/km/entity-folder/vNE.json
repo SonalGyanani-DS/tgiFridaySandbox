@@ -1,6 +1,0 @@
-{
-  "$id": "vNE",
-  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
-  "name": "VNE",
-  "parent": "yext/root"
-}

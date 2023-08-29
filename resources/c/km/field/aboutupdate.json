@@ -1,9 +1,0 @@
-{
-  "$id": "c_aboutupdate",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Aboutupdate",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "typeId": "c_aboutSection"
-}

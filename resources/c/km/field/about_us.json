@@ -1,9 +1,0 @@
-{
-  "$id": "c_about_us",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "About us",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "typeId": "c_headerWithCTAsList"
-}
